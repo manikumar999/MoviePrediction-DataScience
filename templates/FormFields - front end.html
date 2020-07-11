@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Movie Analysis</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+ 
+</head>
+<body style="font-size:25px;font-family: 'EB Garamond', serif;color:red;">
+
+<div class = 'page-header text-center'>
+	<h1 >Movie Analysis</h1>
+	<p>Machine Learning to Predict Movie's Performance.</p>
+	</div>
+	<br><br>
+	<div class='container'>
+
+<form action="{{ url_for('predict')}}" method="post">
+<div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">1. First Production House </label>
+      
+      <select class="custom-select" name="production_no1" required>
+      <option value="">Select</option>
+      <option value="level-1">sri venkateswara creations</option>
+      <option value="level-1">geetha arts</option>
+      <option value="level-1">dvv entertainment</option>
+      <option value="level-1">konidela production company</option>
+      <option value="level-2">reliance entertainment</option>
+      <option value="level-2">v creations</option>
+      <option value="level-2">uv creations</option>
+      <option value="level-2">suresh productions</option>
+      <option value="level-2">mythri movie makers</option>
+      <option value="level-3">haarika and hassine creations</option>
+      <option value="level-3">annapurna studios</option>
+      <option value="level-3">vyjayanthi movies</option>
+      <option value="level-3">t-series</option>
+      <option value="level-3">studio green</option>
+      <option value="level-4">viacom18 motion pictures</option>
+      <option value="level-4">rockline entertainment pvt ltd</option>
+      <option value="level-4">sithara entertainments</option>
+      <option value="level-4">14 reels</option>
+      <option value="level-4">vaaraahi chalana chitram</option>
+      <option value="level-5">sri venkateswara cine chitra</option>
+      <option value="level-5">pvp</option>
+      <option value="level-5">first frame entertainments</option>
+      <option value="level-5">aditya music</option>
+      <option value="level-5">eros international</option>
+      <option value="level-6">g mahesh babu entertainment pvt ltd</option>
+      <option value="level-6">puri jagannadh touring talkies</option>
+      <option value="level-6">puri connects</option>
+      <option value="level-6">nbk films</option>
+      <option value="level-6">pawan kalyan creative works</option>
+      <option value="level-7">creative commercials</option>
+      <option value="level-7">ck entertainments</option>
+      <option value="level-7">ak entertainments</option>
+      <option value="level-7">y not studios</option>
+      <option value="level-8">shine screens</option>
+      <option value="level-8">wall poster cinema</option>
+      <option value="level-8">big ben cinemas</option>
+      <option value="level-8">swapna movies</option>
+      <option value="level-8">ga2 pictures</option>
+      <option value="level-9">people's media factory</option>
+      <option value="level-9">sri sathya sai arts</option>
+      <option value="level-9">abishek pictures</option>
+      <option value="level-9">sri lakshmi narasimha productions</option>
+      <option value="level-10">manyam productions</option>
+      <option value="level-10">shresht movies</option>
+      <option value="level-10">dharmapatha creations</option>
+      <option value="level-10">swadham entertainment</option> 
+      <option value="level-10">ira creations</option>
+      <option value="level-11">blue planet entertainment llp</option>
+      <option value="level-11">sri lakshmi venkateswara cinemas</option>
+      <option value="level-11">anandi art creations</option> 
+      <option value="level-11">srt entertainments</option>
+      <option value="level-12">sri devi movies</option>
+      <option value="level-12">flying frogs</option>
+      <option value="level-12">bhavya creations</option> 
+      <option value="level-12">rama lakshmi cine creations</option>
+      <option value="level-13">indira productions</option>
+      <option value="level-13">madhura entertainment</option>
+      <option value="level-13">kona film corporation</option> 
+      <option value="level-13">north star entertainment</option>
+      <option value="level-13">aran media works</option>
+      <option value="level-13">guru films</option>
+      <option value="level-14">silly monks studios</option> 
+      <option value="level-14">maruthi talkies</option>
+      <option value="level-14">east coast production</option>
+      <option value="level-14">sree lakshmi prasanna pictures</option>
+      <option value="level-14">oak entertainments</option> 
+      <option value="level-14">suresh kondeti presents</option>
+      <option value="level-15">sri tirumala tirupathi venkateswara films</option>
+      <option value="level-15">lucky media</option>
+      <option value="level-15">70mm entertainments</option> 
+      <option value="level-15">mvv cinema</option>
+      <option value="level-15">r company production</option>
+      <option value="level-15">suraksh entertainment</option>
+      <option value="level-16">manchu entertainments</option> 
+      <option value="level-16">crowd funded movie</option>
+      <option value="level-16">sampath nandi team works</option>
+      <option value="level-16">vamsadhara creations</option>
+      <option value="level-16">ariel studios</option> 
+      <option value="level-16">a studio</option>
+      <option value="no one">no one</option>
+      <option value="new">new</option>
+      
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">2. Second Production House</label>
+      
+      <select class="custom-select" name="production_no2" required>
+      <option value="">Select</option>
+       <option value="level-1">sri venkateswara creations</option>
+      <option value="level-1">geetha arts</option>
+      <option value="level-1">dvv entertainment</option>
+      <option value="level-1">konidela production company</option>
+      <option value="level-2">reliance entertainment</option>
+      <option value="level-2">v creations</option>
+      <option value="level-2">uv creations</option>
+      <option value="level-2">suresh productions</option>
+      <option value="level-2">mythri movie makers</option>
+      <option value="level-3">haarika and hassine creations</option>
+      <option value="level-3">annapurna studios</option>
+      <option value="level-3">vyjayanthi movies</option>
+      <option value="level-3">t-series</option>
+      <option value="level-3">studio green</option>
+      <option value="level-4">viacom18 motion pictures</option>
+      <option value="level-4">rockline entertainment pvt ltd</option>
+      <option value="level-4">sithara entertainments</option>
+      <option value="level-4">14 reels</option>
+      <option value="level-4">vaaraahi chalana chitram</option>
+      <option value="level-5">sri venkateswara cine chitra</option>
+      <option value="level-5">pvp</option>
+      <option value="level-5">first frame entertainments</option>
+      <option value="level-5">aditya music</option>
+      <option value="level-5">eros international</option>
+      <option value="level-6">g mahesh babu entertainment pvt ltd</option>
+      <option value="level-6">puri jagannadh touring talkies</option>
+      <option value="level-6">puri connects</option>
+      <option value="level-6">nbk films</option>
+      <option value="level-6">pawan kalyan creative works</option>
+      <option value="level-7">creative commercials</option>
+      <option value="level-7">ck entertainments</option>
+      <option value="level-7">ak entertainments</option>
+      <option value="level-7">y not studios</option>
+      <option value="level-8">shine screens</option>
+      <option value="level-8">wall poster cinema</option>
+      <option value="level-8">big ben cinemas</option>
+      <option value="level-8">swapna movies</option>
+      <option value="level-8">ga2 pictures</option>
+      <option value="level-9">people's media factory</option>
+      <option value="level-9">sri sathya sai arts</option>
+      <option value="level-9">abishek pictures</option>
+      <option value="level-9">sri lakshmi narasimha productions</option>
+      <option value="level-10">manyam productions</option>
+      <option value="level-10">shresht movies</option>
+      <option value="level-10">dharmapatha creations</option>
+      <option value="level-10">swadham entertainment</option> 
+      <option value="level-10">ira creations</option>
+      <option value="level-11">blue planet entertainment llp</option>
+      <option value="level-11">sri lakshmi venkateswara cinemas</option>
+      <option value="level-11">anandi art creations</option> 
+      <option value="level-11">srt entertainments</option>
+      <option value="level-12">sri devi movies</option>
+      <option value="level-12">flying frogs</option>
+      <option value="level-12">bhavya creations</option> 
+      <option value="level-12">rama lakshmi cine creations</option>
+      <option value="level-13">indira productions</option>
+      <option value="level-13">madhura entertainment</option>
+      <option value="level-13">kona film corporation</option> 
+      <option value="level-13">north star entertainment</option>
+      <option value="level-13">aran media works</option>
+      <option value="level-13">guru films</option>
+      <option value="level-14">silly monks studios</option> 
+      <option value="level-14">maruthi talkies</option>
+      <option value="level-14">east coast production</option>
+      <option value="level-14">sree lakshmi prasanna pictures</option>
+      <option value="level-14">oak entertainments</option> 
+      <option value="level-14">suresh kondeti presents</option>
+      <option value="level-15">sri tirumala tirupathi venkateswara films</option>
+      <option value="level-15">lucky media</option>
+      <option value="level-15">70mm entertainments</option> 
+      <option value="level-15">mvv cinema</option>
+      <option value="level-15">r company production</option>
+      <option value="level-15">suraksh entertainment</option>
+      <option value="level-16">manchu entertainments</option> 
+      <option value="level-16">crowd funded movie</option>
+      <option value="level-16">sampath nandi team works</option>
+      <option value="level-16">vamsadhara creations</option>
+      <option value="level-16">ariel studios</option> 
+      <option value="level-16">a studio</option>
+      <option value="no one">no one</option>
+      <option value="new">new</option>
+     
+      
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">3.Third Production House</label>
+      <select class="custom-select" name="production_no3" required>
+      <option value="">Select</option>
+      <option value="level-1">sri venkateswara creations</option>
+      <option value="level-1">geetha arts</option>
+      <option value="level-1">dvv entertainment</option>
+      <option value="level-1">konidela production company</option>
+      <option value="level-2">reliance entertainment</option>
+      <option value="level-2">v creations</option>
+      <option value="level-2">uv creations</option>
+      <option value="level-2">suresh productions</option>
+      <option value="level-2">mythri movie makers</option>
+      <option value="level-3">haarika and hassine creations</option>
+      <option value="level-3">annapurna studios</option>
+      <option value="level-3">vyjayanthi movies</option>
+      <option value="level-3">t-series</option>
+      <option value="level-3">studio green</option>
+      <option value="level-4">viacom18 motion pictures</option>
+      <option value="level-4">rockline entertainment pvt ltd</option>
+      <option value="level-4">sithara entertainments</option>
+      <option value="level-4">14 reels</option>
+      <option value="level-4">vaaraahi chalana chitram</option>
+      <option value="level-5">sri venkateswara cine chitra</option>
+      <option value="level-5">pvp</option>
+      <option value="level-5">first frame entertainments</option>
+      <option value="level-5">aditya music</option>
+      <option value="level-5">eros international</option>
+      <option value="level-6">g mahesh babu entertainment pvt ltd</option>
+      <option value="level-6">puri jagannadh touring talkies</option>
+      <option value="level-6">puri connects</option>
+      <option value="level-6">nbk films</option>
+      <option value="level-6">pawan kalyan creative works</option>
+      <option value="level-7">creative commercials</option>
+      <option value="level-7">ck entertainments</option>
+      <option value="level-7">ak entertainments</option>
+      <option value="level-7">y not studios</option>
+      <option value="level-8">shine screens</option>
+      <option value="level-8">wall poster cinema</option>
+      <option value="level-8">big ben cinemas</option>
+      <option value="level-8">swapna movies</option>
+      <option value="level-8">ga2 pictures</option>
+      <option value="level-9">people's media factory</option>
+      <option value="level-9">sri sathya sai arts</option>
+      <option value="level-9">abishek pictures</option>
+      <option value="level-9">sri lakshmi narasimha productions</option>
+      <option value="level-10">manyam productions</option>
+      <option value="level-10">shresht movies</option>
+      <option value="level-10">dharmapatha creations</option>
+      <option value="level-10">swadham entertainment</option> 
+      <option value="level-10">ira creations</option>
+      <option value="level-11">blue planet entertainment llp</option>
+      <option value="level-11">sri lakshmi venkateswara cinemas</option>
+      <option value="level-11">anandi art creations</option> 
+      <option value="level-11">srt entertainments</option>
+      <option value="level-12">sri devi movies</option>
+      <option value="level-12">flying frogs</option>
+      <option value="level-12">bhavya creations</option> 
+      <option value="level-12">rama lakshmi cine creations</option>
+      <option value="level-13">indira productions</option>
+      <option value="level-13">madhura entertainment</option>
+      <option value="level-13">kona film corporation</option> 
+      <option value="level-13">north star entertainment</option>
+      <option value="level-13">aran media works</option>
+      <option value="level-13">guru films</option>
+      <option value="level-14">silly monks studios</option> 
+      <option value="level-14">maruthi talkies</option>
+      <option value="level-14">east coast production</option>
+      <option value="level-14">sree lakshmi prasanna pictures</option>
+      <option value="level-14">oak entertainments</option> 
+      <option value="level-14">suresh kondeti presents</option>
+      <option value="level-15">sri tirumala tirupathi venkateswara films</option>
+      <option value="level-15">lucky media</option>
+      <option value="level-15">70mm entertainments</option> 
+      <option value="level-15">mvv cinema</option>
+      <option value="level-15">r company production</option>
+      <option value="level-15">suraksh entertainment</option>
+      <option value="level-16">manchu entertainments</option> 
+      <option value="level-16">crowd funded movie</option>
+      <option value="level-16">sampath nandi team works</option>
+      <option value="level-16">vamsadhara creations</option>
+      <option value="level-16">ariel studios</option> 
+      <option value="level-16">a studio</option>
+      <option value="no one">no one</option>
+      <option value="new">new</option>
+      
+      
+      
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">4. Combined production </label>
+      <select class="custom-select" name="combined_production"  required>
+      <option value="">Select</option>
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">5. Director </label>
+      <select class="custom-select" name="director" required>
+      <option value="">Select</option>
+      <option value="level-1">s.s rajamouli</option>
+      <option value="level-1">koratala siva</option>
+      <option value="level-1">trivikram srinivas</option>
+      <option value="level-2">sukumar</option>
+      <option value="level-2">ram gopal varma</option>
+      <option value="level-2">boyapati srinu</option>
+      <option value="level-2">surender reddy</option>
+      <option value="level-3">nag ashwin</option>
+      <option value="level-3">anil ravipudi</option>
+      <option value="level-3">puri jagannadh</option>
+      <option value="level-3">vikram.k.kumar</option>
+      <option value="level-4">parasuram</option>
+      <option value="level-4">vamshi paidipally</option>
+      <option value="level-4">harish shankar</option>
+      <option value="level-5">v.v vinayak</option>
+      <option value="level-5">krish</option>
+      <option value="level-5">sujeeth</option>
+      <option value="level-5">maruthi</option>
+      <option value="level-6">mohana krishna indraganti</option>
+      <option value="level-6">trinadha rao nakkina</option>
+      <option value="level-6">k.s ravi kumar</option>
+      <option value="level-7">sankalp reddy</option>
+      <option value="level-7">gowtham tinnanuri</option>
+      <option value="level-7">shiva nirvana</option>
+      <option value="level-8">vi anand</option>
+      <option value="level-8">kishore tirumala</option>
+      <option value="level-8">b.v nandini reddy</option>
+      <option value="level-9">venky kudumula</option>
+      <option value="level-9">thiru</option>
+      <option value="level-9">venky atluri</option>
+      <option value="level-9">k.s ravindra</option>
+      <option value="level-10">anand shankar</option>
+      <option value="level-10">sri ram aditya</option>
+      <option value="level-10">c prem kumar</option>
+      <option value="level-10">pawan kumar</option>
+      <option value="level-11">prashanth varma</option>
+      <option value="level-11">caarthick raju</option>
+      <option value="level-11">ramesh varma</option>
+      <option value="level-11">santosh.p.jaya kumar</option>
+      <option value="level-12">g ashok</option>
+      <option value="level-12">satish vegesna</option>
+      <option value="level-12">teja</option>
+      <option value="level-12">g nageswara reddy</option>
+      <option value="level-13">hari nath</option>
+      <option value="level-13">rahul sankrityan</option>
+      <option value="level-13">tharun bhaskar</option>
+      <option value="level-13">krishna chaitanya</option>
+      <option value="level-13">b jeevan reddy</option>
+      <option value="level-14">vakkantham vamsi</option>
+      <option value="level-14">hanu raghavapudi</option>
+      <option value="level-14">kalyan krishna</option>
+      <option value="level-14">k.v guhan</option>
+      <option value="level-14">ravi babu</option>
+      <option value="level-15">chandoo mondeti</option>
+      <option value="level-15">prabhakar</option>
+      <option value="level-15">merlapaka gandhi</option>
+      <option value="level-15">annish krishna</option>
+      <option value="level-15">rahul ravindran</option>
+      <option value="level-15">sudheer varma</option>
+      <option value="level-15">g.r krishna</option>
+      <option value="level-15">mahi.v.raghav</option>
+      <option value="level-16">sriwass</option>
+      <option value="level-16">karunakaran</option>
+      <option value="level-16">bhimaneni srinivasa rao</option>
+      <option value="level-16">arun pawar</option>
+      <option value="level-16">ohmkar</option>
+      <option value="level-17">madan</option>
+      <option value="level-17">srinu vaitla</option>
+      <option value="level-17">kranthi madhav</option>
+      <option value="level-17">sai kiran adivi</option>
+      <option value="level-18">paruchuri murali</option>
+      <option value="level-18">j.b murali krishna</option>
+      <option value="level-18">ayodhyakumar krishnamsetty</option>
+      <option value="level-18">rajaa kiran</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+      <option value="more than one">more than one</option>
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">6. First Hero</label>
+      <select class="custom-select" name="first_hero" required>
+      <option value="">Select</option>
+      <option value="level-1">pawan kalyan</option>
+      <option value="level-1">mahesh babu</option>
+      <option value="level-1">chiranjeevi</option>
+      <option value="level-1">prabhas</option>
+      <option value="level-2">jr ntr</option>
+      <option value="level-2">allu arjun</option>
+      <option value="level-2">ram charan</option>
+      <option value="level-3">nagarjuna</option>
+      <option value="level-3">mammootty</option>
+      <option value="level-3">venkatesh</option>
+      <option value="level-3">bala krishna</option>
+      <option value="level-4">nithin</option>
+      <option value="level-4">nani</option>
+      <option value="level-4">varun tej</option>
+      <option value="level-5">ravi teja</option>
+      <option value="level-5">naga chaitanya</option>
+      <option value="level-5">sai dharma tej</option>
+      <option value="level-5">sharwanand</option>
+      <option value="level-6">aadhi pinisetty</option>
+      <option value="level-6">dulquer salmaan</option>
+      <option value="level-6">vijay devarakonda</option>
+      <option value="level-6">adivi sesh</option>
+      <option value="level-7">ram pothineni</option>
+      <option value="level-7">akhil</option>
+      <option value="level-7">atharvaa</option>
+      <option value="level-7">gopi chand</option>
+      <option value="level-7">bellamkonda srinivas</option>
+      <option value="level-8">prasanna</option>
+      <option value="level-8">vishwak sen</option>
+      <option value="level-8">allu sirish</option>
+      <option value="level-8">karthikeya</option>
+      <option value="level-8">naga shourya</option>
+      <option value="level-9">sudheer babu</option>
+      <option value="level-9">sumanth shailendra</option>
+      <option value="level-9">kalyan ram</option>
+      <option value="level-9">nikhil</option>
+      <option value="level-9">sathya dev</option>
+      <option value="level-10">sree vishnu</option>
+      <option value="level-10">rajasekhar</option>
+      <option value="level-10">naveen polishetty</option>
+      <option value="level-10">rahul vijay</option>
+      <option value="level-10">sundeep kishan</option>
+      <option value="level-11">allari naresh</option>
+      <option value="level-11">sumanth</option>
+      <option value="level-11">sushanth</option>
+      <option value="level-11">nara rohit</option>
+      <option value="level-11">raj tharun</option>
+      <option value="level-11">sunil</option>
+      <option value="level-12">srikanth</option>
+      <option value="level-12">manchu manoj</option>
+      <option value="level-12">manchu vishnu</option>
+      <option value="level-12">aadi saikumar</option>
+      <option value="level-12">mohan babu</option>
+      <option value="level-13">kalyan dev</option>
+      <option value="level-13">sumanth ashwin</option>
+      <option value="level-13">rakshith</option>
+      <option value="level-13">karthik raju</option>
+      <option value="level-13">sapthagiri</option>
+      <option value="level-14">santosh sobhan</option>
+      <option value="level-14">akash puri</option>
+      <option value="level-14">vishwadev rachakonda</option>
+      <option value="level-14">chetan maddineni</option>
+      <option value="level-14">srinivas sayee</option>
+      <option value="new">new</option>
+      <option value="no hero">no hero</option>
+      <option value="seasonal">seasonal</option>
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">7. Second Hero</label>
+      <select class="custom-select" name="second_hero" required>
+      <option value="">Select</option>
+      <option value="level-1">pawan kalyan</option>
+      <option value="level-1">mahesh babu</option>
+      <option value="level-1">chiranjeevi</option>
+      <option value="level-1">prabhas</option>
+      <option value="level-2">jr ntr</option>
+      <option value="level-2">allu arjun</option>
+      <option value="level-2">ram charan</option>
+      <option value="level-3">nagarjuna</option>
+      <option value="level-3">mammootty</option>
+      <option value="level-3">venkatesh</option>
+      <option value="level-3">bala krishna</option>
+      <option value="level-4">nithin</option>
+      <option value="level-4">nani</option>
+      <option value="level-4">varun tej</option>
+      <option value="level-5">ravi teja</option>
+      <option value="level-5">naga chaitanya</option>
+      <option value="level-5">sai dharma tej</option>
+      <option value="level-5">sharwanand</option>
+      <option value="level-6">aadhi pinisetty</option>
+      <option value="level-6">dulquer salmaan</option>
+      <option value="level-6">vijay devarakonda</option>
+      <option value="level-6">adivi sesh</option>
+      <option value="level-7">ram pothineni</option>
+      <option value="level-7">akhil</option>
+      <option value="level-7">atharvaa</option>
+      <option value="level-7">gopi chand</option>
+      <option value="level-7">bellamkonda srinivas</option>
+      <option value="level-8">prasanna</option>
+      <option value="level-8">vishwak sen</option>
+      <option value="level-8">allu sirish</option>
+      <option value="level-8">karthikeya</option>
+      <option value="level-8">naga shourya</option>
+      <option value="level-9">sudheer babu</option>
+      <option value="level-9">sumanth shailendra</option>
+      <option value="level-9">kalyan ram</option>
+      <option value="level-9">nikhil</option>
+      <option value="level-9">sathya dev</option>
+      <option value="level-10">sree vishnu</option>
+      <option value="level-10">rajasekhar</option>
+      <option value="level-10">naveen polishetty</option>
+      <option value="level-10">rahul vijay</option>
+      <option value="level-10">sundeep kishan</option>
+      <option value="level-11">allari naresh</option>
+      <option value="level-11">sumanth</option>
+      <option value="level-11">sushanth</option>
+      <option value="level-11">nara rohit</option>
+      <option value="level-11">raj tharun</option>
+      <option value="level-11">sunil</option>
+      <option value="level-12">srikanth</option>
+      <option value="level-12">manchu manoj</option>
+      <option value="level-12">manchu vishnu</option>
+      <option value="level-12">aadi saikumar</option>
+      <option value="level-12">mohan babu</option>
+      <option value="level-13">kalyan dev</option>
+      <option value="level-13">sumanth ashwin</option>
+      <option value="level-13">rakshith</option>
+      <option value="level-13">karthik raju</option>
+      <option value="level-13">sapthagiri</option>
+      <option value="level-14">santosh sobhan</option>
+      <option value="level-14">akash puri</option>
+      <option value="level-14">vishwadev rachakonda</option>
+      <option value="level-14">chetan maddineni</option>
+      <option value="level-14">srinivas sayee</option>
+      <option value="new">new</option>
+      <option value="no hero">no hero</option>
+      <option value="seasonal">seasonal</option>
+     
+      
+    </select>
+    </div>
+   
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">8. First Heroine</label>
+      <select class="custom-select" name="first_heroien" required>
+      <option value="">Select</option>
+      <option value="level-1">nayanthara</option>
+      <option value="level-1">anushka</option>
+      <option value="level-1">vidya balan</option>
+      <option value="level-1">pooja hegde</option>
+      <option value="level-1">shraddha kapoor</option>
+      <option value="level-2">keerthy suresh</option>
+      <option value="level-2">kiara advani</option>
+      <option value="level-2">kajal agarwal</option>
+      <option value="level-2">samantha</option>
+      <option value="level-2">rashmika</option>
+      <option value="level-3">nabha natesh</option>
+      <option value="level-3">taapsee</option>
+      <option value="level-3">kalyani priyadarshan</option>
+      <option value="level-3">anupama parameswaran</option>
+      <option value="level-3">nidhi agarwal</option>
+      <option value="level-4">sai pallavi</option>
+      <option value="level-4">raashi khanna</option>
+      <option value="level-4">mehreen pirzada</option>
+      <option value="level-4">rakul preet singh</option>
+      <option value="level-4">tamannah</option>
+      <option value="level-5">ritika singh</option>
+      <option value="level-5">shraddha srinath</option>
+      <option value="level-5">payal rajput</option>
+      <option value="level-5">aishwarya rajesh</option>
+      <option value="level-5">shalini pandey</option>
+      <option value="level-6">anu emmanuel</option>
+      <option value="level-6">lavanya tripathi</option>
+      <option value="level-6">regina cassandra</option>
+      <option value="level-6">hansika motwani</option>
+      <option value="level-6">nivetha thomas</option>
+      <option value="level-7">malavika nair</option>
+      <option value="level-7">nanditha swetha</option>
+      <option value="level-7">ruhani sharma</option>
+      <option value="level-7">megha akarsh</option>
+      <option value="level-7">aditi rao hydari</option>
+      <option value="level-8">lakshmi manchu</option>
+      <option value="level-8">adah sharma</option>
+      <option value="level-8">niharika konidela</option>
+      <option value="level-8">sonal chauhan</option>
+      <option value="level-8">shruthi ramachandran</option>
+      <option value="level-9">tanya hope</option>
+      <option value="level-9">sobhita dhulipala</option>
+      <option value="level-9">riya suman</option>
+      <option value="level-9">vedhika</option>
+      <option value="level-9">aakanksha</option>
+      <option value="level-10">chandini chowdary</option>
+      <option value="level-10">amyra dastur</option>
+      <option value="level-10">rukshar dhillon</option>
+      <option value="level-10">priya vadlamani</option>
+      <option value="level-10">priyanka jain</option>
+      <option value="level-10">yagna shetty</option>
+      <option value="level-11">pragya jaiswal</option>
+      <option value="level-11">anagha l.k</option>
+      <option value="level-11">seerat kapoor</option>
+      <option value="level-11">kautilya</option>
+      <option value="level-11">zareen khan</option>
+      <option value="level-12">manali rathod</option>
+      <option value="level-12">pallak lalwani</option>
+      <option value="level-12">avanthika</option>
+      <option value="level-12">neha chauhan</option>
+      <option value="level-12">nikhila vimal</option>
+      <option value="level-12">samyuktha hegde</option>
+      <option value="level-13">diksha panth</option>
+      <option value="level-13">neha shetty</option>
+      <option value="level-13">chitra shukla</option>
+      <option value="level-13">simran parneeja</option>
+      <option value="level-13">nitya shetty</option>
+      <option value="level-13">natasha doshi</option>
+      <option value="level-14">tanishq rajan</option>
+      <option value="level-14">darshana banik</option>
+      <option value="level-14">pranali ghoghare</option>
+      <option value="level-14">karunya chowdhary</option>
+      <option value="level-14">satna titus</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+      <option value="no heroien">no heroien</option>
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">9. Second heroine</label>
+      <select class="custom-select" name="second_heroien" required>
+      <option value="">Select</option>
+       <option value="level-1">nayanthara</option>
+      <option value="level-1">anushka</option>
+      <option value="level-1">vidya balan</option>
+      <option value="level-1">pooja hegde</option>
+      <option value="level-1">shraddha kapoor</option>
+      <option value="level-2">keerthy suresh</option>
+      <option value="level-2">kiara advani</option>
+      <option value="level-2">kajal agarwal</option>
+      <option value="level-2">samantha</option>
+      <option value="level-2">rashmika</option>
+      <option value="level-3">nabha natesh</option>
+      <option value="level-3">taapsee</option>
+      <option value="level-3">kalyani priyadarshan</option>
+      <option value="level-3">anupama parameswaran</option>
+      <option value="level-3">nidhi agarwal</option>
+      <option value="level-4">sai pallavi</option>
+      <option value="level-4">raashi khanna</option>
+      <option value="level-4">mehreen pirzada</option>
+      <option value="level-4">rakul preet singh</option>
+      <option value="level-4">tamannah</option>
+      <option value="level-5">ritika singh</option>
+      <option value="level-5">shraddha srinath</option>
+      <option value="level-5">payal rajput</option>
+      <option value="level-5">aishwarya rajesh</option>
+      <option value="level-5">shalini pandey</option>
+      <option value="level-6">anu emmanuel</option>
+      <option value="level-6">lavanya tripathi</option>
+      <option value="level-6">regina cassandra</option>
+      <option value="level-6">hansika motwani</option>
+      <option value="level-6">nivetha thomas</option>
+      <option value="level-7">malavika nair</option>
+      <option value="level-7">nanditha swetha</option>
+      <option value="level-7">ruhani sharma</option>
+      <option value="level-7">megha akarsh</option>
+      <option value="level-7">aditi rao hydari</option>
+      <option value="level-8">lakshmi manchu</option>
+      <option value="level-8">adah sharma</option>
+      <option value="level-8">niharika konidela</option>
+      <option value="level-8">sonal chauhan</option>
+      <option value="level-8">shruthi ramachandran</option>
+      <option value="level-9">tanya hope</option>
+      <option value="level-9">sobhita dhulipala</option>
+      <option value="level-9">riya suman</option>
+      <option value="level-9">vedhika</option>
+      <option value="level-9">aakanksha</option>
+      <option value="level-10">chandini chowdary</option>
+      <option value="level-10">amyra dastur</option>
+      <option value="level-10">rukshar dhillon</option>
+      <option value="level-10">priya vadlamani</option>
+      <option value="level-10">priyanka jain</option>
+      <option value="level-10">yagna shetty</option>
+      <option value="level-11">pragya jaiswal</option>
+      <option value="level-11">anagha l.k</option>
+      <option value="level-11">seerat kapoor</option>
+      <option value="level-11">kautilya</option>
+      <option value="level-11">zareen khan</option>
+      <option value="level-12">manali rathod</option>
+      <option value="level-12">pallak lalwani</option>
+      <option value="level-12">avanthika</option>
+      <option value="level-12">neha chauhan</option>
+      <option value="level-12">nikhila vimal</option>
+      <option value="level-12">samyuktha hegde</option>
+      <option value="level-13">diksha panth</option>
+      <option value="level-13">neha shetty</option>
+      <option value="level-13">chitra shukla</option>
+      <option value="level-13">simran parneeja</option>
+      <option value="level-13">nitya shetty</option>
+      <option value="level-13">natasha doshi</option>
+      <option value="level-14">tanishq rajan</option>
+      <option value="level-14">darshana banik</option>
+      <option value="level-14">pranali ghoghare</option>
+      <option value="level-14">karunya chowdhary</option>
+      <option value="level-14">satna titus</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+      <option value="no heroien">no heroien</option>
+      
+    </select>
+    </div><div class="col-md-4 mb-3">
+      <label for="validationDefault02">10. Multi – Starrer</label>
+      <select class="custom-select" name="multi_starer" required>
+      <option value="">Select</option>
+      <option value="yes">yes</option>
+      <option value="no">no</option>
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">11. Music – Director</label>
+      <select class="custom-select" name="music" required>
+      <option value="">Select</option>
+      <option value="level-1">devi sri prasad</option>
+      <option value="level-1">vishal-shekhar</option>
+      <option value="level-1">pritam</option>
+      <option value="level-1">thamman</option>
+      <option value="level-1">anirudh</option>
+      <option value="level-1">amit trivedi</option>
+      <option value="level-2">m.m keeravani</option>
+      <option value="level-2">gopi sunder</option>
+      <option value="level-2">hiphop tamizha</option>
+      <option value="level-2">mani sharma</option>
+      <option value="level-2">chirantan bhatt</option>
+      <option value="level-3">vivek sagar</option>
+      <option value="level-3">mickey.j.mayer</option>
+      <option value="level-3">ghibran</option>
+      <option value="level-3">govind vasanth</option>
+      <option value="level-4">mahati swara sagar</option>
+      <option value="level-4">prashant pillai</option>
+      <option value="level-4">vishal chandrasekhar</option>
+      <option value="level-4">sam c.s</option>
+      <option value="level-5">anoop rubens</option>
+      <option value="level-5">b ajaneesh loknath</option>
+      <option value="level-5">shaan rahman</option>
+      <option value="level-5">justin prabhakaran</option>
+      <option value="level-5">sri charan pakala</option>
+      <option value="level-5">radhaan</option>
+      <option value="level-6">k</option>
+      <option value="level-6">chaitan bharadwaj</option>
+      <option value="level-6">jakes bejay</option>
+      <option value="level-6">sharreth</option>
+      <option value="level-6">dhibu ninan thomas</option>
+      <option value="level-6">sai kartheek</option>
+      <option value="level-6">mark.k.robin</option>
+      <option value="level-7">kalyan malik</option>
+      <option value="level-7">pravin lakkaraju</option>
+      <option value="level-7">sandeep chowta</option>
+      <option value="level-7">raghu dixit</option>
+      <option value="level-7">harsha vardhan rameshwar</option>
+      <option value="level-7">poorna chandra tejaswi</option>
+      <option value="level-7">raghu kunchey</option>
+      <option value="level-8">shekar chandra</option>
+      <option value="level-8">leon james</option>
+      <option value="level-8">sai vasanth</option>
+      <option value="level-8">prashanth.r.vihari</option>
+      <option value="level-8">bala murali balu</option>
+      <option value="level-8">nivas prasanna</option>
+      <option value="level-8">shravan bharadwaj</option>
+      <option value="level-9">judah sandhy</option>
+      <option value="level-9">roh ethan yohann</option>
+      <option value="level-9">sunil kashyap</option>
+      <option value="level-9">suresh bobbili</option>
+      <option value="level-9">bheems ceciroleo</option>
+      <option value="level-9">sunny m.r</option>
+      <option value="level-10">kiran ravindranath</option>
+      <option value="level-10">k.m radha krishnan</option>
+      <option value="level-10">ravi shankar</option>
+      <option value="level-10">j.b</option>
+      <option value="level-10">koti</option>
+      <option value="level-10">shakthikanth karthik</option>
+      <option value="level-10">shabir</option>
+      <option value="level-11">naresh kumaran</option>
+      <option value="level-11">vasuki vaibhav</option>
+      <option value="level-11">karthik kodakamdla</option>
+      <option value="level-11">gifton elias</option>
+      <option value="level-11">syed kamran</option>
+      <option value="level-11">bulganin</option>
+      <option value="level-11">sanker sharma</option>
+      <option value="level-11">s.chinna</option>
+      <option value="level-11">smaran</option>
+      <option value="new">new</option>
+      <option value="more than one">more than one</option>
+      <option value="seasonal">seasonal</option>
+      
+     
+     </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">12. Back Ground Music</label>
+      <select class="custom-select" name="back_ground" required>
+      <option value="">Select</option>
+      <option value="level-1">devi sri prasad</option>
+      <option value="level-1">vishal-shekhar</option>
+      <option value="level-1">pritam</option>
+      <option value="level-1">thamman</option>
+      <option value="level-1">anirudh</option>
+      <option value="level-1">amit trivedi</option>
+      <option value="level-2">m.m keeravani</option>
+      <option value="level-2">gopi sunder</option>
+      <option value="level-2">hiphop tamizha</option>
+      <option value="level-2">mani sharma</option>
+      <option value="level-2">chirantan bhatt</option>
+      <option value="level-3">vivek sagar</option>
+      <option value="level-3">mickey.j.mayer</option>
+      <option value="level-3">ghibran</option>
+      <option value="level-4">govind vasanth</option>
+      <option value="level-4">mahati swara sagar</option>
+      <option value="level-4">prashant pillai</option>
+      <option value="level-4">vishal chandrasekhar</option>
+      <option value="level-4">sam c.s</option>
+      <option value="level-5">anoop rubens</option>
+      <option value="level-5">b ajaneesh loknath</option>
+      <option value="level-5">shaan rahman</option>
+      <option value="level-5">justin prabhakaran</option>
+      <option value="level-5">sri charan pakala</option>
+      <option value="level-5">radhaan</option>
+      <option value="level-6">k</option>
+      <option value="level-6">chaitan bharadwaj</option>
+      <option value="level-6">jakes bejay</option>
+      <option value="level-6">sharreth</option>
+      <option value="level-6">dhibu ninan thomas</option>
+      <option value="level-6">sai kartheek</option>
+      <option value="level-6">mark.k.robin</option>
+      <option value="level-7">kalyan malik</option>
+      <option value="level-7">pravin lakkaraju</option>
+      <option value="level-7">sandeep chowta</option>
+      <option value="level-7">raghu dixit</option>
+      <option value="level-7">harsha vardhan rameshwar</option>
+      <option value="level-7">poorna chandra tejaswi</option>
+      <option value="level-7">raghu kunchey</option>
+      <option value="level-8">shekar chandra</option>
+      <option value="level-8">leon james</option>
+      <option value="level-8">sai vasanth</option>
+      <option value="level-8">prashanth.r.vihari</option>
+      <option value="level-8">bala murali balu</option>
+      <option value="level-8">nivas prasanna</option>
+      <option value="level-8">shravan bharadwaj</option>
+      <option value="level-9">judah sandhy</option>
+      <option value="level-9">roh ethan yohann</option>
+      <option value="level-9">sunil kashyap</option>
+      <option value="level-9">suresh bobbili</option>
+      <option value="level-9">bheems ceciroleo</option>
+      <option value="level-9">sunny m.r</option>
+      <option value="level-10">kiran ravindranath</option>
+      <option value="level-10">k.m radha krishnan</option>
+      <option value="level-10">ravi shankar</option>
+      <option value="level-10">j.b</option>
+      <option value="level-10">koti</option>
+      <option value="level-10">shakthikanth karthik</option>
+      <option value="level-10">shabir</option>
+      <option value="level-11">naresh kumaran</option>
+      <option value="level-11">vasuki vaibhav</option>
+      <option value="level-11">karthik kodakamdla</option>
+      <option value="level-11">gifton elias</option>
+      <option value="level-11">syed kamran</option>
+      <option value="level-11">bulganin</option>
+      <option value="level-11">sanker sharma</option>
+      <option value="level-11">s.chinna</option>
+      <option value="level-11">smaran</option>
+      <option value="new">new</option>
+      <option value="more than one">more than one</option>
+      <option value="more than one(experience)">more than one(experience)</option>
+      <option value="seasonal">seasonal</option>
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">13. Cinematographer</label>
+      <select class="custom-select" name="cinematographer" required>
+      <option value="">Select</option>
+      <option value="level-1">senthil kumar</option>
+      <option value="level-1">p.c sreeram</option>
+      <option value="level-1">rathnavelu</option>
+      <option value="level-1">p.s vinod</option>
+      <option value="level-2">madhi</option>
+      <option value="level-2">v manikandan</option>
+      <option value="level-2">miroslaw kuba brozek</option>
+      <option value="level-2">sameer reddy</option>
+      <option value="level-3">rajeev ravi</option>
+      <option value="level-3">natarajan subramaniam</option>
+      <option value="level-3">chota.k.naidu</option>
+      <option value="level-3">gnana shekar v.s</option>
+      <option value="level-3">k.u mohanan</option>
+      <option value="level-4">ayanankabose</option>
+      <option value="level-4">vetri palanisamy</option>
+      <option value="level-4">prasad murella</option>
+      <option value="level-4">k.v guhan</option>
+      <option value="level-4">karthik ghattamaneni</option>
+      <option value="level-5">p.g vinda</option>
+      <option value="level-5">santhana krishnan</option>
+      <option value="level-5">sathyan sooryan</option>
+      <option value="level-5">s manikandan</option>
+      <option value="level-6">ram prasad</option>
+      <option value="level-6">r.d rajashekar</option>
+      <option value="level-6">sai sriram</option>
+      <option value="level-6">george.c.williams</option>
+      <option value="level-7">arthur.a.wilson</option>
+      <option value="level-7">sam.k.naidu</option>
+      <option value="level-7">venkat.c.dilip</option>
+      <option value="level-7">vishnu sharma</option>
+      <option value="level-7">sanu varghese</option>
+      <option value="level-7">advaitha gurumurthy</option>
+      <option value="level-8">richard prasad</option>
+      <option value="level-8">shamdat</option>
+      <option value="level-8">niketh bommireddy</option>
+      <option value="level-8">sujith sarang</option>
+      <option value="level-8">raj thota</option>
+      <option value="level-8">ravi yadav</option>
+      <option value="level-9">mukesh g</option>
+      <option value="level-9">vijay.c.chakravarthy</option>
+      <option value="level-9">palani karthik</option>
+      <option value="level-9">sudhakar yakkanti</option>
+      <option value="level-9">sirsha ray</option>
+      <option value="level-9">nizar shafi</option>
+      <option value="level-10">andrew i</option>
+      <option value="level-10">maneesh chandra bhatt</option>
+      <option value="level-10">shaneil deo</option>
+      <option value="level-10">vijay.c.kumar</option>
+      <option value="level-10">raamy</option>
+      <option value="level-10">rajesh yadav</option>
+      <option value="level-10">mahendiran jayaraju</option>
+      <option value="level-11">p.k varma</option>
+      <option value="level-11">j yuvraj</option>
+      <option value="level-11">m.sukumar</option>
+      <option value="level-11">garudavega anji</option>
+      <option value="level-11">shekar chandru</option>
+      <option value="level-11">jaya krishna gummadi</option>
+      <option value="level-12">venkat.r.prasad</option>
+      <option value="level-12">soundarrajan</option>
+      <option value="level-12">sarvesh murari</option>
+      <option value="level-12">raam</option>
+      <option value="level-12">divakar mani</option>
+      <option value="level-12">dasaradhi sivendra</option>
+      <option value="level-12">vedaraman sankara</option>
+      <option value="level-13">rajashekar b</option>
+      <option value="level-13">t surendra reddy</option>
+      <option value="level-13">suresh sarangam</option>
+      <option value="level-13">a vasanth</option>
+      <option value="level-13">anil bandari</option>
+      <option value="level-13">guru prashanth rai</option>
+      <option value="level-13">arul vincent</option>
+      <option value="level-14">anish tharun kumar</option>
+      <option value="level-14">suresh ragutu</option>
+      <option value="level-14">r.k prathap</option>
+      <option value="level-14">bal reddy p</option>
+      <option value="level-14">r siddhartha</option>
+      <option value="level-14">l.k vijay</option>
+      <option value="level-14">lavith</option>
+      <option value="level-14">samala bhasker</option>
+      <option value="level-15">prasad g.k</option>
+      <option value="level-15">rasool ellore</option>
+      <option value="level-15">sathish muthayala</option>
+      <option value="level-15">s.v vishweshwar</option>
+      <option value="level-15">praveen vanamali</option>
+      <option value="level-15">dhamu narravula</option>
+      <option value="level-15">d yadhagiri</option>
+      <option value="level-15">eshwar ellumahanthi</option>
+      <option value="level-15">jagadeesh cheekati</option>
+      <option value="level-15">b.v amarnadh reddy</option>
+      <option value="more than one">more than one</option>
+      <option value="more than one(experience)">more than one(experience)</option>
+      <option value="seasonal">seasonal</option>
+      <option value="new">new</option>
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">14. Editor</label>
+      <select class="custom-select" name="editor" required>
+      <option value="">Select</option>
+      <option value="level-1">kotagiri garu</option>
+      <option value="level-1">sreekar prasad</option>
+      <option value="level-1">gowtham raju</option>
+      <option value="level-1">anthony</option>
+      <option value="level-2">navin nooli</option>
+      <option value="level-2">praveen k.l</option>
+      <option value="level-2">thammiraju</option>
+      <option value="level-3">karthika srinivas</option>
+      <option value="level-3">chota.k.prasad</option>
+      <option value="level-3">prawin pudi</option>
+      <option value="level-4">marthand.k.venkatesh</option>
+      <option value="level-4">praveen antony</option>
+      <option value="level-4">pradeep.e.raghav</option>
+      <option value="level-5">prasanna g.k</option>
+      <option value="level-5">arram rama krishna</option>
+      <option value="level-5">richard kevin</option>
+      <option value="level-5">madhu</option>
+      <option value="level-5">raymond rerrick crasta</option>
+      <option value="level-6">junaid siddique</option>
+      <option value="level-6">garry bh</option>
+      <option value="level-6">ravi teja girijala</option>
+      <option value="level-6">satish surya</option>
+      <option value="level-6">shashank mali</option>
+      <option value="level-7">sreejith sarang</option>
+      <option value="level-7">gowtham nerusu</option>
+      <option value="level-7">shravan katikaneni</option>
+      <option value="level-7">s.r shekar</option>
+      <option value="level-7">suresh arumugam</option>
+      <option value="level-8">sp raja sethupathi</option>
+      <option value="level-8">m.r varma</option>
+      <option value="level-8">amar reddy</option>
+      <option value="level-8">s.b uddhav</option>
+      <option value="level-8">nageswara reddy bonthala</option>
+      <option value="level-9">dharmendra kakarla</option>
+      <option value="level-9">john abraham</option>
+      <option value="level-9">nandamuri hari</option>
+      <option value="level-9">anwar ali</option>
+      <option value="level-9">sathya g</option>
+      <option value="level-10">ravi manala</option>
+      <option value="level-10">j.p</option>
+      <option value="level-10">k.m prakash</option>
+      <option value="level-10">s.s sunkara</option>
+      <option value="level-10">krishna reddy</option>
+      <option value="level-11">renjith touchriver</option>
+      <option value="level-11">b mahendranath</option>
+      <option value="level-11">shiva.y.prasad</option>
+      <option value="level-11">anil kumar bonthu</option>
+      <option value="new">new</option>
+      <option value="more than one(experience)">more than one(experience)</option>
+      <option value="more than one">more than one</option>
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">15. Art Director</label>
+      <select class="custom-select" name="art_director" required>
+      <option value="">Select</option>
+      <option value="level-1">sabu cyril</option>
+      <option value="level-1">rajeevan</option>
+      <option value="level-1">thota dharani</option>
+      <option value="level-1">a.s prakash</option>
+      <option value="level-1">vaishnavi reddy</option>
+      <option value="level-2">rama krishna and mounika</option>
+      <option value="level-2">kolla avinash</option>
+      <option value="level-2">ravindar</option>
+      <option value="level-2">milan</option>
+      <option value="level-2">suresh selvarajan</option>
+      <option value="level-3">kosanam vital</option>
+      <option value="level-3">ramanjaneyulu.a</option>
+      <option value="level-3">ramana vanka</option>
+      <option value="level-3">sahi suresh</option>
+      <option value="level-4">kiran kumar manne</option>
+      <option value="level-4">brahma kadali</option>
+      <option value="level-4">shivam rao</option>
+      <option value="level-4">drk kiran and s.s moorthy</option>
+      <option value="level-5">chinna</option>
+      <option value="level-5">shaik jhonny</option>
+      <option value="level-5">gandhi nandikudikar</option>
+      <option value="level-5">selva kumar</option>
+      <option value="level-6">t nagendra prasad</option>
+      <option value="level-6">rajeev nayer</option>
+      <option value="level-6">s.v murali</option>
+      <option value="level-6">latha tharun</option>
+      <option value="level-6">satyanarayana d.y</option>
+      <option value="level-7">nagendra</option>
+      <option value="level-7">srikanth ramisetty</option>
+      <option value="level-7">mridul baidya</option>
+      <option value="level-7">lakshmi sindhuja grandhi</option>
+      <option value="level-8">a ram kumar and b supriya</option>
+      <option value="level-8">raghu kulakarni</option>
+      <option value="level-8">thaju</option>
+      <option value="level-8">bhupesh.r.bhupathi</option>
+      <option value="level-9">j.k murthy</option>
+      <option value="level-9">krishna maya</option>
+      <option value="level-9">narayana reddy</option>
+      <option value="level-9">vivek annamalai</option>
+      <option value="level-9">hari varma</option>
+      <option value="level-9">t.n prasad</option>
+      <option value="more than one">more than one</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+       
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">16. First Fight Master</label>
+      <select class="custom-select" name="fight_master_one" required>
+      <option value="">Select</option>
+      <option value="level-1">ram laxman</option>
+      <option value="level-1">vijay</option>
+      <option value="level-1">peter hein</option>
+      <option value="level-1">vijay</option>
+      <option value="level-2">venkat</option>
+      <option value="level-2">kanal kannan</option>
+      <option value="level-2">stunt silva</option>
+      <option value="level-3">real satheesh</option>
+      <option value="level-3">ravi varma</option>
+      <option value="level-3">dhilip subbarayan</option>
+      <option value="level-4">dragon prakash</option>
+      <option value="level-4">rama krishna</option>
+      <option value="level-4">anbariv</option>
+      <option value="level-5">jashuva</option>
+      <option value="level-5">nandu</option>
+      <option value="level-5">ram sunkara</option>
+      <option value="no one">no one</option>
+      <option value="no fights">no fights</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">17. Second Fight Master</label>
+      <select class="custom-select" name="fight_master_two" required>
+      <option value="">Select</option>
+      <option value="level-1">ram laxman</option>
+      <option value="level-1">vijay</option>
+      <option value="level-1">peter hein</option>
+      <option value="level-1">vijay</option>
+      <option value="level-2">venkat</option>
+      <option value="level-2">kanal kannan</option>
+      <option value="level-2">stunt silva</option>
+      <option value="level-3">real satheesh</option>
+      <option value="level-3">ravi varma</option>
+      <option value="level-3">dhilip subbarayan</option>
+      <option value="level-4">dragon prakash</option>
+      <option value="level-4">rama krishna</option>
+      <option value="level-4">anbariv</option>
+      <option value="level-5">jashuva</option>
+      <option value="level-5">nandu</option>
+      <option value="level-5">ram sunkara</option>
+      <option value="no one">no one</option>
+      <option value="new">new</option>
+      <option value="seasonal">seasonal</option>
+      <option value="foreign">foreign</option>
+      
+     
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">18. Third Fight Master</label>
+      <select class="custom-select" name="fight_master_three" required>
+      <option value="">Select</option>
+      <option value="level-1">ram laxman</option>
+      <option value="level-1">vijay</option>
+      <option value="level-1">peter hein</option>
+      <option value="level-1">vijay</option>
+      <option value="level-2">venkat</option>
+      <option value="level-2">kanal kannan</option>
+      <option value="level-2">stunt silva</option>
+      <option value="level-3">real satheesh</option>
+      <option value="level-3">ravi varma</option>
+      <option value="level-3">dhilip subbarayan</option>
+      <option value="level-4">dragon prakash</option>
+      <option value="level-4">rama krishna</option>
+      <option value="level-4">anbariv</option>
+      <option value="level-5">jashuva</option>
+      <option value="level-5">nandu</option>
+      <option value="level-5">ram sunkara</option>
+      <option value="no one">no one</option>
+      <option value="new">new</option>
+      <option value="foreign">foreign</option>
+      
+     
+
+
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">19. Audio Release Company</label>
+      <select class="custom-select" name="audio" required>
+      <option value="">Select</option>
+      <option value="sony">sony</option>
+      <option value="madhura audio">madhura audio</option>
+      <option value="aditya music">aditya music</option>
+      <option value="lahari music">lahari music</option>
+      <option value="t-series">t-series</option>
+      <option value="think music india">think music india</option>
+      <option value="zee music south">zee music south</option>
+      <option value="mango music">mango music</option>
+      <option value="anjali audio">anjali audio</option>
+      <option value="more than one">more than one</option>
+      <option value="sony music south">sony music south</option>
+      <option value="silly monks">silly monks</option>
+      <option value="sekhara audio">sekhara audio</option>
+      <option value="noaudio">no audio</option>
+      <option value="shreyas music">shreyas music</option>
+      <option value="idream music">idream music</option>
+      <option value="y not music">y not music</option>
+      <option value="normal">normal</option>
+      <option value="puri sangeet">puri sangeet</option>
+      <option value="sivam celluloids">sivam celluloids</option>
+      <option value="celeb konnect">celeb konnect</option>
+      <option value="t series telugu">t series telugu</option>
+      <option value="junglee music">junglee music</option>
+      <option value="vel records">vel records</option>
+     
+     
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">20. No of Songs</label>
+      <select class="custom-select" name="songs" required>
+      <option value="">Select</option>
+      <option value="less than6">less than 6</option>
+      <option value="exactly 6">exactly 6</option>
+      <option value="more than 6">more than 6</option>
+      <option value="nosongs">no songs</option>
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">21. Genre</label>
+      <select class="custom-select" name="genre" required>
+      <option value="">Select</option>
+      <option value="a">action</option>
+      <option value="b">action-thriller</option>
+      <option value="c">action-drama</option>
+      <option value="d">action-comedy-drama-romance</option>
+      <option value="e">action-crime</option>
+      <option value="g">action-thriller-crime</option>
+      <option value="i">action-thriller-romance</option>
+      <option value="m">biography-drama</option>
+      <option value="n">biography-action</option>
+      <option value="o">thriller</option>
+      <option value="p">mystery</option>
+      <option value="q">drama</option>
+      <option value="r">adventure</option>
+      <option value="s">science-fiction</option>
+      <option value="t">socio-fantacy</option>
+      <option value="v">sociofantacy-romance-comedy</option>
+      <option value="w">sports-drama</option>
+      <option value="x">family-drama</option>
+      <option value="y">family-action</option>
+      <option value="z">horror-comedy</option>
+      <option value="ab">crime-comedy</option>
+      <option value="ac">crime-thriller/crime-romance</option>
+      <option value="ae">horror</option>
+      <option value="af">adult-romance</option>
+      <option value="ag">romance-thriller-drama</option>
+      <option value="ah">romance-thriller-comedy</option>
+      <option value="ai">action-crime-comedy</option>
+      <option value="aj">horror-thriller</option>
+      <option value="ak">horror-action</option>
+      <option value="al">suspense-thriller</option>
+      <option value="am">mystery-horror</option>
+      
+      
+      
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">22. Poster Design</label>
+      <select class="custom-select" name="poster" required>
+      <option value="">Select</option>
+      <option value="level-1">anil bhanu</option>
+      <option value="level-1">siva kiran</option>
+      <option value="level-2">dhanie aelay</option>
+      <option value="level-2">padmasri</option>
+      <option value="level-3">design id</option>
+      <option value="level-3">omkar kadiyam</option>
+      <option value="level-3">ram peddeti</option>
+      <option value="level-3">vikram designs</option>
+      <option value="level-4">krishna digitals</option>
+      <option value="level-4">posterman design works</option>
+      <option value="level-4">kishore posters</option>
+      <option value="level-5">vasu prem</option>
+      <option value="level-5">gopi prasanna</option>
+      <option value="level-5">eshan design</option>
+      <option value="new">new</option>
+     
+      
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">23. Movie Run time</label>
+      <select class="custom-select" name="run_time" required>
+      <option value="">Select</option>
+      <option value="below 120">below 120</option>
+      <option value="120 and above">120 and above</option>
+      <option value="130 and above">130 and above</option>
+      <option value="150 and above">150 and above</option>
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">24. Release Month</label>
+      <select class="custom-select" name="month" required>
+      <option value="">Select</option>
+      <option value="january">january</option>
+      <option value="february">february</option>
+      <option value="march">march</option>
+      <option value="april">april</option>
+      <option value="may">may</option>
+      <option value="june">june</option>
+      <option value="july">july</option>
+      <option value="august">august</option>
+      <option value="september">september</option>
+      <option value="october">october</option>
+      <option value="november">november</option>
+      <option value="december">december</option>
+      </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">25. budget of the movie </label>
+      <select class="custom-select" name="budget" required>
+      <option value="">Select</option>
+      <option value="very very high">very very high</option>
+      <option value="very high">very high</option>
+      <option value="high">high</option>
+      <option value="medium">medium</option>
+      <option value="low">low</option>
+      <option value="very low">very low</option>
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">26. Release  Distribution </label>
+      <select class="custom-select" name="distributed_by" required>
+      <option value="">Select</option>
+      <option value="national">national</option>
+      <option value="top">top</option>
+      <option value="normal">normal</option>
+      <option value="low">low</option>
+      <option value="very low">very low</option>
+    </select>
+    </div>
+    </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+  
+</form>
+	<br>
+	</div>
+	<footer class="mastfoot mt-auto text-center">
+    <div class="inner">
+      <p>Website by <a href="https://github.com/manikumar999">@manikumar</a>.</p>
+    </div>
+  </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
+   
+   
+   

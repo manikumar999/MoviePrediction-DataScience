@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Movie Analysis</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+ 
+</head>
+<body style="font-size:20px;font-family: 'Architects Daughter', cursive;color:white;">
+
+<div class = 'page-header text-center'>
+	<h1 >Movie Analysis</h1>
+	<p>Machine Learning to Predict Movie's Performance.</p>
+	</div>
+	<br><br>
+	<div class='container'>
+
+<form action="{{ url_for('predict')}}" method="post">
+<div class="form-row">
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">1. First Production House </label>
+      
+      <select class="custom-select" name="First Production House" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">level-15</option>
+      <option value="16">level-16</option>
+      <option value="17">new</option>
+      <option value="18">no one</option>
+      
+     
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault01">2. Second Production House</label>
+      
+      <select class="custom-select" name="Second Production House" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">level-15</option>
+      <option value="16">level-16</option>
+      <option value="17">new</option>
+      <option value="18">no one</option>
+     
+      
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">3.Third Production House</label>
+      <select class="custom-select" name="Third Production House" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">level-15</option>
+      <option value="16">level-16</option>
+      <option value="17">new</option>
+      <option value="18">no one</option>
+      
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">4. Combined production </label>
+      <select class="custom-select" name="Combined production" required>
+      <option value="">Select</option>
+      <option value="1">Yes</option>
+      <option value="2">No</option>
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">5. Director </label>
+      <select class="custom-select" name="Director" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">level-15</option>
+      <option value="16">level-16</option>
+      <option value="17">level-17</option>
+      <option value="18">level-18</option>
+      <option value="19">seasonal</option>
+      <option value="20">more than one</option>
+      <option value="21">new</option>
+      
+
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">7. First Hero</label>
+      <select class="custom-select" name="First Hero"required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">new</option>
+      <option value="16">no hero</option>
+      <option value="17">seasonal</option>
+      
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">8. Second Hero</label>
+      <select class="custom-select" name="Second Hero" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">new</option>
+      <option value="16">no hero</option>
+      <option value="17">seasonal</option>
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">9. First Heroine</label>
+      <select class="custom-select" name="First Heroine" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">new</option>
+      <option value="16">no heroien</option>
+      <option value="17">seasonal</option>
+      <option value="18">old</option>
+
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">10. Second heroine</label>
+      <select class="custom-select"name="Second heroine" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">new</option>
+      <option value="16">no heroien</option>
+      <option value="17">seasonal</option>
+      <option value="18">old</option>
+      
+
+
+    </select>
+    </div><div class="col-md-4 mb-3">
+      <label for="validationDefault02">11. Multi – Starrer</label>
+      <select class="custom-select" name="Multi – Starrer" required>
+      <option value="">Select</option>
+      <option value="1">yes</option>
+      <option value="2">no</option>
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">12. Music – Director</label>
+      <select class="custom-select" name="Music – Director" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">new</option>
+      <option value="13">seasonal</option>
+      <option value="14">more than one</option>
+      <option value="15">more than one(experience)</option>
+      
+     
+
+
+
+     </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">13. Back Ground Music</label>
+      <select class="custom-select" name="Back Ground Music" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">new</option>
+      <option value="13">seasonal</option>
+      <option value="14">more than one</option>
+      <option value="15">more than one(experience)</option>
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">14. Cinematographer</label>
+      <select class="custom-select" name="Cinematographer" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">level-12</option>
+      <option value="13">level-13</option>
+      <option value="14">level-14</option>
+      <option value="15">level-15</option>
+      <option value="16">new</option>
+      <option value="17">seasonal</option>
+      <option value="18">more than one</option>
+      <option value="19">more than one(experience)</option>
+      <option value="20">dani(old)</option>
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">15. Editor</label>
+      <select class="custom-select" name="Editor"required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">level-10</option>
+      <option value="11">level-11</option>
+      <option value="12">new</option>
+      <option value="13">more than one</option>
+      <option value="14">more than one(experience)</option>
+     
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">16. Art Director</label>
+      <select class="custom-select"name="Art Director" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">level-6</option>
+      <option value="7">level-7</option>
+      <option value="8">level-8</option>
+      <option value="9">level-9</option>
+      <option value="10">new</option>
+      <option value="11">seasonal</option>
+      <option value="12">more than one</option>
+      
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">17. First Fight Master</label>
+      <select class="custom-select" name="First Fight Master" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">new</option>
+      <option value="7">no fights</option>
+      <option value="8">no one</option>
+      <option value="9">foreign</option>
+      <option value="10">seasonal</option>
+     
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">18. Second Fight Master</label>
+      <select class="custom-select" name="Second Fight Master" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">new</option>
+      <option value="7">no fights</option>
+      <option value="8">no one</option>
+      <option value="9">foreign</option>
+      <option value="10">seasonal</option>
+      
+      
+    </select>
+    </div>
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">19. Third Fight Master</label>
+      <select class="custom-select" name="Third Fight Master" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">new</option>
+      <option value="7">no fights</option>
+      <option value="8">no one</option>
+      <option value="9">foreign</option>
+      <option value="10">seasonal</option>
+     
+    </select>
+    </div>
+   
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">20. Audio Release Company</label>
+      <select class="custom-select" name="Audio Release Company" required>
+      <option value="">Select</option>
+      <option value="1">sony</option>
+      <option value="2">madhura audio</option>
+      <option value="3">aditya music</option>
+      <option value="4">lahari music</option>
+      <option value="5">t-series</option>
+      <option value="6">think music india</option>
+      <option value="7">zee music south</option>
+      <option value="8">mango music</option>
+      <option value="9">anjali audio</option>
+      <option value="10">more than one</option>
+      <option value="11">sony music south</option>
+      <option value="12">silly monks</option>
+      <option value="13">sekhara audio</option>
+      <option value="14">no audio</option>
+      <option value="15">shreyas music</option>
+      <option value="16">idream music</option>
+      <option value="17">y not music</option>
+      <option value="18">normal</option>
+      <option value="19">puri sangeet</option>
+      <option value="20">sivam celluloids</option>
+      <option value="21">celeb konnect</option>
+      <option value="22">t series telugu</option>
+      <option value="23">junglee music</option>
+      <option value="24">vel records</option>
+     
+    </select>
+    </div>
+   
+   <div class="col-md-4 mb-3">
+      <label for="validationDefault02">21. No of Songs</label>
+      <select class="custom-select" name="No of Songs" required>
+      <option value="">Select</option>
+      <option value="1">less than 6</option>
+      <option value="2">exactly 6</option>
+      <option value="3">more than 6</option>
+      <option value="4">no songs</option>
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">22. Genre</label>
+      <select class="custom-select" name="Genre" required>
+      <option value="">Select</option>
+      <option value="1">a</option>
+      <option value="2">b</option>
+      <option value="3">c</option>
+      <option value="4">d</option>
+      <option value="5">e</option>
+      <option value="6">f</option>
+      <option value="7">g</option>
+      <option value="8">h</option>
+      <option value="9">i</option>
+      <option value="10">j</option>
+      <option value="11">k</option>
+      <option value="12">l</option>
+      <option value="13">m</option>
+      <option value="14">n</option>
+      <option value="15">o</option>
+      <option value="16">p</option>
+      <option value="17">q</option>
+      <option value="18">r</option>
+      <option value="19">s</option>
+      <option value="20">t</option>
+      <option value="21">u</option>
+      <option value="22">v</option>
+      <option value="23">w</option>
+      <option value="24">x</option>
+      <option value="25">y</option>
+      <option value="26">z</option>
+      <option value="27">ab</option>
+      <option value="28">ac</option>
+      <option value="29">ad</option>
+      <option value="30">ae</option>
+      <option value="31">af</option>
+      <option value="32">ag</option>
+      <option value="33">ah</option>
+      <option value="34">ai</option>
+      <option value="35">aj</option>
+      <option value="36">ak</option>
+      <option value="37">no genre</option>
+      
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">23. Poster Design</label>
+      <select class="custom-select" name="Poster Design" required>
+      <option value="">Select</option>
+      <option value="1">level-1</option>
+      <option value="2">level-2</option>
+      <option value="3">level-3</option>
+      <option value="4">level-4</option>
+      <option value="5">level-5</option>
+      <option value="6">new</option>
+     
+
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">24. Movie Run time</label>
+      <select class="custom-select" name="Movie Run time" required>
+      <option value="">Select</option>
+      <option value="1">below 120</option>
+      <option value="2">120 and above</option>
+      <option value="3">130 and above</option>
+      <option value="3">150 and above</option>
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">25. Release Month</label>
+      <select class="custom-select" name="Release Month"required>
+      <option value="">Select</option>
+      <option value="1">january</option>
+      <option value="2">february</option>
+      <option value="3">march</option>
+      <option value="4">april</option>
+      <option value="5">may</option>
+      <option value="6">june</option>
+      <option value="7">july</option>
+      <option value="8">august</option>
+      <option value="9">september</option>
+      <option value="10">october</option>
+      <option value="11">november</option>
+      <option value="12">december</option>
+      </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">26. budget of the movie </label>
+      <select class="custom-select" name="budget of the movie" required>
+      <option value="">Select</option>
+      <option value="1">very very high</option>
+      <option value="2">very high</option>
+      <option value="3">high</option>
+      <option value="4">medium</option>
+      <option value="5">low</option>
+      <option value="6">very low</option>
+    </select>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationDefault02">27. Release  Distribution </label>
+      <select class="custom-select" name="Release  Distribution"required>
+      <option value="">Select</option>
+      <option value="1">national</option>
+      <option value="2">top</option>
+      <option value="3">normal</option>
+      <option value="4">low</option>
+      <option value="5">very low</option>
+    </select>
+    </div>
+    </div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+  
+</form>
+	<br>
+	</div>
+	<footer class="mastfoot mt-auto text-center">
+    <div class="inner">
+      <p>Website by <a href="https://github.com/manikumar999">@manikumar</a>.</p>
+    </div>
+  </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
+   
+   

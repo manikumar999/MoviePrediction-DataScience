@@ -1,0 +1,268 @@
+,result,director,first_hero,second_hero,first_heroien,second_heroien,multi_starer,music,back_ground,cinematographer,editor,audio,songs,genre,production_no1,production_no2,production_no3,combined_production,distributed_by,month,run_time,art_director,fight_master_one,fight_master_two,fight_master_three,poster,budget
+0,average,level-16,no hero,level-13,no heroien,level-5,no,level-6,level-6,level-10,level-1,sony,less than6,w,level-7,no one,no one,no,top,august,130 and above,new,level-4,no one,no one,level-2,medium
+1,flop,new,new,no hero,new,no heroien,no,level-8,level-8,new,level-2,madhura audio,less than6,l,level-2,level-13,level-8,yes,top,july,130 and above,level-9,level-5,no one,no one,level-1,low
+2,super hit,level-8,level-8,no hero,level-2,no heroien,no,level-3,level-3,level-8,level-6,aditya music,exactly 6,v,level-9,level-2,level-13,yes,top,july,150 and above,level-3,no one,no one,level-4,level-1,medium
+3,flop,seasonal,new,no hero,level-5,no heroien,no,level-11,level-11,new,level-8,lahari music,exactly 6,q,new,no one,no one,no,low,december,130 and above,new,new,no one,no one,new,low
+4,flop,new,level-12,no hero,seasonal,no heroien,no,level-6,level-6,level-6,level-8,aditya music,less than6,l,new,new,no one,yes,low,july,120 and above,level-5,new,no one,no one,new,low
+5,industry hit,level-5,level-1,no hero,no heroien,level-1,no,more than one,level-3,level-2,level-1,t-series,less than6,b,level-2,level-3,no one,yes,national,august,150 and above,level-1,level-1,foreign,foreign,new,very very high
+6,hit,level-11,level-10,no hero,new,no heroien,no,level-1,level-1,level-11,level-2,think music india,less than6,l,new,no one,no one,no,top,july,120 and above,new,level-2,new,no one,level-2,medium
+7,flop,new,no hero,level-6,level-2,level-8,no,level-5,level-5,level-8,level-7,lahari music,more than 6,d,level-2,level-8,no one,yes,top,july,150 and above,level-3,new,no one,no one,level-1,medium
+8,industry hit,level-3,level-9,level-7,level-3,level-3,yes,level-2,level-2,level-8,level-6,zee music south,less than6,aj,level-6,level-6,no one,yes,top,july,130 and above,level-5,level-3,no one,no one,level-1,medium
+9,hit,level-11,level-7,no hero,level-3,no heroien,no,level-3,level-3,level-7,level-8,aditya music,less than6,g,level-16,no one,no one,no,top,august,130 and above,level-5,no one,new,level-2,level-3,medium
+10,average,new,no hero,level-8,level-11,no heroien,no,new,new,level-12,level-2,aditya music,exactly 6,c,new,new,new,yes,low,august,130 and above,new,level-4,no one,no one,level-2,medium
+11,flop,level-15,no hero,level-3,level-4,no heroien,no,new,new,level-11,more than one,aditya music,less than6,l,level-3,level-11,level-4,yes,national,august,150 and above,level-2,no fights,no one,no one,level-2,high
+12,flop,new,seasonal,no hero,seasonal,no heroien,no,new,new,level-15,level-8,mango music,less than6,p,new,no one,no one,yes,low,august,below 120,new,level-5,no one,no one,level-2,low
+13,hit,new,level-6,no hero,no heroien,level-6,no,level-5,level-5,new,level-6,aditya music,less than6,ac,level-5,no one,no one,no,top,august,below 120,level-2,level-2,no one,no one,level-1,medium
+14,average,new,seasonal,no hero,no heroien,no heroien,no,level-11,level-11,new,level-3,anjali audio,less than6,l,new,no one,no one,no,low,august,below 120,new,no one,level-5,no one,level-4,very low
+15,flop,new,no hero,level-12,level-5,no heroien,no,seasonal,seasonal,level-15,level-10,aditya music,exactly 6,l,new,no one,no one,no,low,september,130 and above,new,no one,level-3,level-4,level-2,low
+16,average,level-15,level-5,no hero,level-2,level-3,no,level-4,level-4,level-12,level-2,aditya music,less than6,c,no one,level-4,no one,no,top,august,130 and above,level-2,no one,level-2,no one,level-1,high
+17,hit,level-3,level-8,level-4,new,no heroien,yes,level-1,level-1,level-2,level-2,sony,less than6,d,no one,level-2,no one,no,top,september,150 and above,level-8,level-3,no one,no one,level-1,high
+18,industry hit,level-2,level-1,no hero,level-4,level-1,no,level-1,level-1,level-1,level-1,more than one,less than6,n,level-1,no one,no one,no,national,october,150 and above,level-1,level-1,foreign,foreign,level-1,very very high
+19,super hit,level-4,level-7,level-4,level-1,new,yes,level-3,level-3,level-4,level-3,sony music south,less than6,b,level-4,no one,no one,no,top,september,150 and above,level-2,level-1,no one,no one,level-1,high
+20,average,level-9,level-7,no hero,level-4,level-11,no,level-4,level-5,level-4,level-4,lahari music,less than6,b,no one,no one,level-7,no,top,october,130 and above,level-3,level-1,level-1,level-2,level-1,high
+21,flop,new,new,no hero,new,no heroien,no,new,seasonal,new,new,mango music,less than6,l,new,no one,no one,no,low,september,150 and above,new,no fights,no one,no one,new,very low
+22,flop,level-11,seasonal,no hero,new,new,no,level-8,level-8,new,level-5,mango music,less than6,af,new,no one,no one,no,low,march,below 120,new,no fights,no one,no one,new,low
+23,flop,new,seasonal,seasonal,level-13,no heroien,yes,level-9,level-9,more than one,level-8,aditya music,more than 6,q,new,new,no one,yes,low,may,130 and above,level-1,level-1,foreign,no one,level-1,low
+24,flop,seasonal,seasonal,new,level-12,new,yes,new,new,new,new,mango music,less than6,l,new,new,new,yes,low,may,120 and above,new,new,no one,no one,level-5,very low
+25,flop,new,seasonal,no hero,level-12,no heroien,no,level-9,level-9,more than one,new,junglee music,less than6,q,new,no one,no one,no,low,march,130 and above,new,no fights,no one,no one,new,very low
+26,flop,seasonal,level-8,no hero,new,no heroien,no,level-8,level-8,level-6,level-2,mango music,more than 6,d,no one,no one,level-2,no,top,june,130 and above,level-2,level-3,no one,no one,new,medium
+27,average,level-16,level-13,no hero,new,no heroien,no,level-11,level-11,level-15,new,aditya music,less than6,d,new,no one,no one,no,low,june,130 and above,new,no one,no one,level-5,level-3,medium
+28,average,new,new,no hero,new,no heroien,no,level-6,level-6,new,new,madhura audio,more than 6,m,no one,new,level-2,yes,top,june,130 and above,new,level-5,no one,no one,level-5,low
+29,flop,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,q,new,no one,no one,no,low,july,120 and above,new,no fights,no one,no one,level-2,low
+30,flop,new,new,no hero,new,no heroien,no,new,new,new,level-6,mango music,less than6,l,new,new,new,no,low,september,120 and above,level-7,no one,level-3,no one,level-3,very low
+31,hit,new,new,no hero,new,no heroien,no,level-11,level-11,new,more than one,aditya music,less than6,q,new,new,no one,yes,top,october,130 and above,level-7,no fights,no one,no one,new,low
+32,flop,new,new,no hero,level-5,no heroien,no,level-5,level-5,level-6,level-3,aditya music,less than6,q,level-7,no one,no one,no,top,october,130 and above,level-5,no one,level-5,no one,new,medium
+33,flop,new,new,no hero,new,no heroien,no,new,new,new,level-4,mango music,less than6,o,new,no one,no one,no,low,october,130 and above,new,new,no one,no one,new,very low
+34,flop,new,new,no hero,new,new,no,level-8,new,more than one,new,aditya music,less than6,q,new,no one,no one,no,low,october,120 and above,new,no one,level-5,no one,level-2,very low
+35,flop,seasonal,new,no hero,level-10,no heroien,no,more than one,level-6,level-15,new,mango music,less than6,a,level-12,no one,no one,no,top,may,120 and above,level-9,no one,level-5,no one,level-2,very low
+36,flop,seasonal,new,no hero,new,no heroien,no,new,new,level-13,level-10,mango music,less than6,l,new,no one,no one,no,low,october,130 and above,new,new,no one,no one,new,very low
+37,flop,seasonal,no hero,level-10,new,no heroien,no,level-9,level-9,new,level-9,lahari music,less than6,d,new,new,no one,yes,low,november,150 and above,new,no one,level-4,level-3,level-1,medium
+38,hit,level-13,new,level-9,new,no heroien,yes,level-9,level-7,level-9,new,silly monks,less than6,m,new,new,level-14,yes,top,november,150 and above,level-5,new,level-4,no one,level-1,medium
+39,average,new,level-10,no hero,level-8,new,no,level-6,level-6,new,level-6,lahari music,less than6,l,no one,new,no one,no,top,march,120 and above,level-2,no one,no one,level-4,new,medium
+40,flop,new,level-14,no hero,no heroien,level-10,no,level-8,level-8,new,level-4,mango music,less than6,l,new,no one,no one,no,low,march,150 and above,level-7,new,no one,no one,level-1,very low
+41,flop,new,level-9,level-12,seasonal,new,yes,level-7,level-7,level-11,level-2,aditya music,less than6,o,new,new,no one,yes,low,november,130 and above,level-5,new,no one,no one,new,very low
+42,average,new,new,no hero,new,no heroien,no,new,new,more than one,new,sony,less than6,l,new,new,no one,yes,top,november,130 and above,new,no fights,no one,no one,new,low
+43,hit,new,new,no hero,new,no heroien,no,new,new,level-13,level-3,sony,less than6,ab,new,no one,no one,no,top,december,130 and above,level-1,new,no one,no one,new,medium
+44,average,new,new,no hero,seasonal,seasonal,no,level-9,level-9,level-6,level-1,sekhara audio,less than6,q,new,no one,no one,no,low,december,below 120,new,level-1,level-5,level-5,level-2,low
+45,average,level-16,seasonal,no hero,seasonal,no heroien,no,level-10,level-10,level-3,level-1,more than one,less than6,z,level-14,no one,no one,no,top,october,120 and above,level-3,no one,level-2,no one,level-1,medium
+46,flop,level-17,level-13,level-12,new,seasonal,yes,level-5,level-5,new,level-6,aditya music,less than6,b,new,new,new,yes,normal,october,120 and above,level-9,level-4,new,new,level-1,medium
+47,average,new,new,no hero,seasonal,no heroien,no,new,new,new,level-7,aditya music,less than6,l,new,new,no one,yes,normal,november,120 and above,new,no fights,no one,no one,new,low
+48,flop,level-14,seasonal,no hero,level-12,new,no,new,new,level-9,level-4,noaudio,nosongs,o,no one,level-12,no one,no,top,november,below 120,level-9,no fights,no one,no one,level-3,very low
+49,average,seasonal,level-9,no hero,no heroien,level-6,no,level-4,level-4,new,level-2,lahari music,less than6,b,new,no one,no one,no,normal,november,130 and above,level-3,no one,no one,level-2,level-1,medium
+50,average,level-12,no hero,level-10,level-6,no heroien,no,level-6,level-6,level-6,level-3,shreyas music,less than6,d,new,no one,no one,no,normal,november,120 and above,level-4,level-2,no one,no one,level-2,medium
+51,flop,level-6,level-3,no hero,level-9,level-8,no,level-2,level-2,level-6,level-9,aditya music,less than6,c,no one,new,level-7,yes,top,december,150 and above,level-5,level-1,level-4,no one,level-2,high
+52,average,level-9,level-3,level-5,level-4,level-5,yes,level-1,level-1,level-4,level-3,aditya music,less than6,d,level-9,level-2,no one,yes,top,december,130 and above,level-4,level-1,level-3,level-1,level-1,high
+53,flop,level-15,level-11,no hero,level-5,no heroien,no,level-3,level-3,level-2,level-2,aditya music,exactly 6,l,level-1,no one,no one,no,top,december,120 and above,level-3,no fights,no one,no one,level-1,medium
+54,super hit,level-5,level-5,no hero,no heroien,level-4,no,level-1,level-1,new,level-1,lahari music,less than6,x,no one,level-8,level-2,yes,top,december,130 and above,level-3,no one,level-2,no one,level-1,high
+55,flop,level-5,no hero,level-3,level-1,no heroien,no,level-2,level-2,level-3,level-5,sony,more than 6,m,level-6,level-4,new,yes,top,january,150 and above,level-3,no one,no one,level-5,level-2,very high
+56,flop,level-5,level-3,no hero,no heroien,level-1,no,level-2,level-2,level-3,level-5,sony,more than 6,m,level-4,level-6,new,yes,top,january,120 and above,level-3,level-5,no one,no one,level-2,very high
+57,industry hit,level-3,level-4,level-3,level-4,level-4,yes,level-1,level-1,level-2,level-2,aditya music,exactly 6,l,no one,level-1,no one,no,top,january,150 and above,level-1,level-2,foreign,foreign,level-1,very high
+58,flop,level-2,level-2,no hero,level-2,no heroien,no,level-1,level-1,more than one(experience),more than one(experience),lahari music,less than6,a,no one,level-1,no one,no,top,january,130 and above,level-1,no one,level-2,no one,level-2,very high
+59,hit,level-15,level-3,no hero,old,no heroien,no,level-6,level-6,level-5,level-1,mango music,exactly 6,m,level-15,no one,no one,no,normal,february,130 and above,level-2,level-1,no one,level-3,level-1,medium
+60,average,level-9,level-7,no hero,seasonal,level-3,no,level-1,level-1,level-6,level-2,sony,exactly 6,l,no one,level-5,no one,no,top,january,130 and above,level-2,level-1,level-3,no one,level-1,high
+61,flop,level-14,level-9,no hero,level-6,level-5,no,level-8,level-8,level-4,level-2,aditya music,less than6,b,no one,level-14,no one,no,normal,march,120 and above,level-4,level-3,level-4,level-2,level-1,medium
+62,disaster,new,new,new,no heroien,no heroien,yes,level-3,level-3,new,level-6,aditya music,exactly 6,ac,new,no one,no one,no,low,february,130 and above,new,new,no one,no one,new,very low
+63,super hit,level-7,level-5,no hero,new,level-2,no,level-2,level-2,level-7,level-3,aditya music,exactly 6,l,level-8,no one,no one,no,top,april,150 and above,level-3,no one,level-4,level-2,level-2,medium
+64,flop,more than one,new,no hero,new,no heroien,no,level-7,level-7,level-10,new,mango music,more than 6,m,new,no one,no one,no,low,march,150 and above,new,no fights,no one,no one,level-1,low
+65,super hit,level-8,no hero,level-5,level-3,level-7,no,level-1,level-1,level-4,level-1,sony,less than6,q,no one,no one,level-2,no,top,april,120 and above,level-1,new,level-2,no one,level-1,medium
+66,flop,new,new,no hero,new,no heroien,no,new,level-9,level-15,level-9,idream music,less than6,q,new,no one,no one,no,low,may,120 and above,new,new,no one,no one,new,low
+67,hit,level-7,level-4,no hero,no heroien,level-5,no,level-1,level-1,level-7,level-2,zee music south,more than 6,w,no one,level-4,no one,no,top,april,150 and above,level-2,level-4,new,no one,level-1,high
+68,average,new,level-8,no hero,no heroien,level-10,no,level-9,level-9,level-12,level-2,madhura audio,less than6,l,level-13,no one,no one,no,top,may,130 and above,new,new,no one,no one,level-2,medium
+69,industry hit,level-4,level-1,level-11,seasonal,level-1,yes,level-1,level-1,level-3,level-2,aditya music,more than 6,c,level-5,level-3,level-1,yes,top,may,150 and above,level-1,level-1,no one,no one,level-1,very high
+70,average,new,level-8,no hero,new,new,no,level-3,level-3,new,level-6,lahari music,less than6,b,new,new,new,yes,normal,may,130 and above,more than one,level-4,no one,no one,new,medium
+71,average,level-12,no hero,level-7,no heroien,level-2,no,level-5,level-5,level-9,level-1,t-series,less than6,d,no one,level-16,no one,no,normal,may,150 and above,level-3,no one,level-2,no one,level-4,high
+72,average,seasonal,no hero,no hero,level-3,no heroien,no,level-9,level-9,level-13,level-5,y not music,more than 6,o,level-2,level-7,no one,yes,national,june,below 120,new,no one,no one,level-3,level-5,medium
+73,flop,new,seasonal,no hero,level-6,seasonal,no,level-6,level-6,level-9,level-2,mango music,less than6,o,new,no one,no one,no,top,june,below 120,level-5,no one,new,level-2,level-3,medium
+74,average,seasonal,level-14,no hero,new,no heroien,no,level-10,level-10,level-11,new,mango music,less than6,l,no one,new,no one,no,normal,june,120 and above,new,no one,no one,level-3,level-1,medium
+75,flop,level-18,level-8,no hero,seasonal,no heroien,no,level-5,level-5,level-13,new,mango music,less than6,a,new,no one,new,yes,low,june,130 and above,new,new,no one,no one,new,medium
+76,flop,seasonal,no hero,level-12,seasonal,no heroien,no,level-1,level-1,level-10,level-2,mango music,less than6,d,no one,no one,new,no,low,june,below 120,new,new,no one,no one,new,medium
+77,hit,new,level-10,no hero,new,no heroien,no,level-6,level-6,new,new,madhura audio,less than6,ai,level-10,no one,no one,no,normal,june,130 and above,new,no fights,no one,no one,new,low
+78,average,level-11,level-10,no hero,level-8,level-7,no,level-8,level-8,level-12,level-7,madhura audio,more than 6,b,new,no one,no one,no,normal,june,130 and above,level-7,level-5,new,level-2,level-2,high
+79,hit,new,level-9,level-10,level-7,level-6,yes,level-3,level-3,level-6,level-6,aditya music,more than 6,l,no one,level-10,no one,no,normal,june,130 and above,level-3,new,new,new,level-1,low
+80,flop,new,seasonal,no hero,new,no heroien,no,level-9,level-9,level-15,level-1,aditya music,less than6,x,new,no one,no one,no,low,november,120 and above,new,no fights,no one,no one,new,medium
+81,flop,seasonal,seasonal,seasonal,new,new,yes,level-10,level-10,new,level-5,aditya music,less than6,x,no one,new,no one,no,normal,october,130 and above,level-9,no fights,no one,no one,level-4,low
+82,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,a,new,no one,no one,no,very low,december,120 and above,new,new,no one,no one,new,very low
+83,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,november,130 and above,new,new,no one,no one,new,very low
+84,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,s,new,no one,no one,no,very low,november,130 and above,new,new,no one,no one,new,very low
+85,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,x,new,no one,no one,no,very low,november,130 and above,new,new,no one,no one,new,very low
+86,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,l,new,no one,no one,no,very low,september,150 and above,new,new,no one,no one,new,very low
+87,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,mango music,less than6,q,new,no one,no one,no,very low,september,150 and above,new,new,no one,no one,new,very low
+88,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,z,new,no one,no one,no,very low,august,120 and above,new,new,no one,no one,new,very low
+89,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,c,new,no one,no one,no,very low,july,120 and above,new,new,no one,no one,new,very low
+90,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,july,below 120,new,new,no one,no one,new,very low
+91,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,b,new,no one,no one,no,very low,july,below 120,new,new,no one,no one,new,very low
+92,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,july,120 and above,new,new,no one,no one,new,very low
+93,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,l,new,no one,no one,no,very low,june,120 and above,new,new,no one,no one,new,very low
+94,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,a,new,no one,no one,no,very low,june,120 and above,new,new,no one,no one,new,very low
+95,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,o,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+96,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,l,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+97,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,ac,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+98,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+99,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,c,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+100,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,ae,new,no one,no one,no,very low,may,below 120,new,new,no one,no one,new,very low
+101,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,april,below 120,new,new,no one,no one,new,very low
+102,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,l,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+103,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,aditya music,less than6,aj,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+104,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,december,120 and above,new,new,no one,no one,new,very low
+105,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,madhura audio,less than6,q,new,no one,no one,no,very low,january,120 and above,new,new,no one,no one,new,very low
+106,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,january,120 and above,new,new,no one,no one,new,very low
+107,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,aditya music,less than6,l,new,no one,no one,no,very low,january,130 and above,new,new,no one,no one,new,very low
+108,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,february,120 and above,new,new,no one,no one,new,very low
+109,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,mango music,less than6,d,new,no one,no one,no,very low,february,120 and above,new,new,no one,no one,new,very low
+110,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,l,new,no one,no one,no,very low,february,120 and above,new,new,no one,no one,new,very low
+111,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,february,120 and above,new,new,no one,no one,new,very low
+112,average,level-12,no hero,level-9,no heroien,level-4,no,level-2,level-2,level-8,level-2,aditya music,less than6,c,no one,no one,level-5,no,top,january,130 and above,level-3,no one,level-3,level-2,level-1,high
+113,average,level-8,level-5,no hero,level-5,level-3,no,level-1,level-1,level-4,level-7,more than one,less than6,s,no one,new,level-11,yes,normal,january,130 and above,level-6,level-2,level-3,level-3,level-1,high
+114,flop,new,seasonal,no hero,new,no heroien,no,level-8,level-8,new,new,aditya music,less than6,l,new,new,no one,yes,low,february,130 and above,new,new,no one,no one,level-1,very low
+115,flop,new,new,no hero,seasonal,new,no,new,new,new,new,aditya music,less than6,o,no one,no one,new,no,low,february,below 120,new,no fights,no one,no one,new,very low
+116,super hit,level-3,no hero,level-1,no heroien,level-2,no,level-1,level-1,level-1,level-2,lahari music,less than6,d,level-1,level-6,level-7,yes,top,january,150 and above,level-1,level-1,no one,no one,level-1,very high
+117,industry hit,level-1,level-2,level-11,level-1,level-7,yes,level-1,level-1,level-1,level-2,aditya music,more than 6,c,no one,level-1,level-3,yes,top,january,150 and above,level-1,level-1,no one,no one,level-1,very high
+118,flop,new,no hero,no hero,seasonal,seasonal,no,new,new,new,new,normal,less than6,ab,new,new,no one,yes,low,march,120 and above,level-5,no fights,no one,no one,level-3,very low
+119,flop,new,new,no hero,new,no heroien,no,level-11,level-11,new,level-11,normal,less than6,p,new,no one,no one,no,low,march,below 120,new,no fights,no one,no one,new,medium
+120,flop,seasonal,seasonal,new,new,no heroien,yes,level-7,level-7,new,new,mango music,less than6,o,level-12,no one,no one,no,normal,march,120 and above,level-9,no fights,no one,no one,level-2,low
+121,disaster,seasonal,no hero,level-10,no heroien,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,march,below 120,new,new,no one,no one,new,low
+122,flop,new,no hero,level-10,level-10,no heroien,no,new,new,level-13,level-10,sony,less than6,q,new,no one,no one,no,normal,march,120 and above,new,new,no one,no one,new,medium
+123,average,seasonal,level-13,no hero,new,no heroien,no,level-7,level-7,level-13,level-1,aditya music,exactly 6,c,new,new,no one,yes,top,march,130 and above,new,no one,no one,level-5,new,low
+124,flop,more than one,seasonal,no hero,new,no heroien,no,new,new,more than one,new,aditya music,more than 6,x,new,new,no one,yes,top,february,130 and above,new,no fights,no one,no one,new,low
+125,super hit,new,no hero,level-8,level-7,no heroien,no,level-3,level-3,level-5,level-6,sony,less than6,p,level-8,no one,no one,no,top,february,120 and above,level-2,new,no one,no one,new,medium
+126,flop,level-17,level-6,no hero,level-5,level-4,no,level-2,level-2,level-11,level-1,aditya music,less than6,l,level-7,no one,no one,no,top,february,130 and above,level-3,no one,level-2,level-4,new,high
+127,super hit,level-9,level-4,no hero,level-2,no heroien,no,level-4,level-4,level-6,level-2,aditya music,less than6,d,level-4,no one,no one,no,top,february,130 and above,level-3,level-2,no one,no one,new,high
+128,average,level-10,no hero,level-5,no heroien,level-2,no,level-3,level-4,level-10,level-2,aditya music,more than 6,l,no one,no one,level-1,no,top,february,150 and above,level-3,no fights,no one,no one,level-5,medium
+129,flop,new,new,new,level-14,level-11,yes,new,new,new,new,mango music,exactly 6,q,new,no one,no one,no,normal,february,130 and above,new,no fights,no one,no one,level-2,low
+130,average,new,no hero,level-8,level-4,no heroien,no,level-5,level-3,new,level-6,aditya music,less than6,b,no one,no one,level-10,no,normal,january,130 and above,level-4,level-4,no one,no one,level-1,low
+131,flop,new,new,no hero,new,new,no,level-2,level-2,level-12,level-6,madhura audio,less than6,l,level-10,no one,no one,no,top,january,below 120,new,no fights,no one,no one,new,very low
+132,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,new,no one,no one,no,very low,january,120 and above,new,new,no one,no one,new,very low
+133,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,mango music,less than6,q,no one,new,no one,no,very low,january,120 and above,new,new,no one,no one,new,very low
+134,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,ah,no one,no one,new,no,very low,january,120 and above,new,new,no one,no one,new,very low
+135,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,lahari music,less than6,l,new,no one,no one,no,very low,january,120 and above,new,new,no one,no one,new,very low
+136,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,ag,no one,new,no one,no,very low,february,150 and above,new,new,no one,no one,new,very low
+137,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,aditya music,less than6,af,no one,no one,new,no,very low,february,120 and above,new,new,no one,no one,new,very low
+138,disaster,new,new,no hero,new,no heroien,no,level-7,level-7,new,new,madhura audio,less than6,o,new,no one,no one,no,very low,february,120 and above,new,new,no one,no one,new,very low
+139,disaster,new,no hero,new,no heroien,new,no,new,new,new,new,aditya music,less than6,a,no one,new,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+140,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,normal,less than6,q,no one,no one,new,no,very low,march,120 and above,new,new,no one,no one,new,very low
+141,average,new,no hero,level-9,level-13,level-12,no,level-5,level-5,level-7,level-8,aditya music,more than 6,l,no one,no one,level-7,no,top,march,130 and above,level-2,no fights,no one,no one,level-1,medium
+142,flop,new,no hero,level-7,level-2,level-4,no,level-1,level-1,level-3,level-3,aditya music,less than6,b,no one,no one,level-16,no,top,december,130 and above,level-5,level-2,level-1,level-2,level-3,high
+143,flop,new,new,no hero,new,no heroien,no,new,new,level-15,level-9,aditya music,less than6,q,new,no one,no one,no,low,june,130 and above,new,no one,no one,level-5,level-3,low
+144,flop,new,new,no hero,new,no heroien,no,level-10,level-10,level-15,level-9,mango music,more than 6,c,no one,level-9,new,yes,top,december,120 and above,new,new,seasonal,new,new,low
+145,average,level-15,no hero,level-11,new,no heroien,no,more than one,level-10,level-2,level-3,aditya music,more than 6,d,no one,level-1,no one,no,top,july,120 and above,level-1,level-1,level-2,level-4,level-1,medium
+146,flop,level-15,level-4,no hero,level-10,level-3,no,level-2,level-2,level-4,level-9,lahari music,exactly 6,d,no one,level-8,no one,no,top,april,130 and above,level-3,no one,level-5,level-4,level-1,high
+147,flop,new,seasonal,no hero,new,no heroien,no,new,new,more than one,level-11,aditya music,less than6,q,new,no one,no one,no,low,june,120 and above,seasonal,no fights,no one,no one,level-3,low
+148,flop,new,new,no hero,new,no heroien,no,new,new,seasonal,level-4,mango music,less than6,q,no one,new,no one,no,low,december,120 and above,level-3,level-4,no one,no one,level-2,low
+149,industry hit,level-3,level-6,level-6,level-2,level-2,yes,level-3,level-3,dani(old),level-1,aditya music,less than6,m,no one,level-3,level-8,yes,top,may,150 and above,level-1,no fights,no one,no one,level-3,high
+150,flop,new,no hero,level-11,level-13,no heroien,no,level-5,level-5,level-14,level-1,aditya music,more than 6,l,no one,level-3,no one,no,top,january,130 and above,new,no one,level-3,no one,level-1,low
+151,flop,new,new,no hero,new,no heroien,no,level-5,level-5,level-6,level-3,mango music,less than6,l,new,no one,no one,no,low,february,120 and above,new,new,no one,no one,new,low
+152,flop,new,level-14,no hero,level-10,no heroien,no,new,new,new,new,mango music,exactly 6,d,no one,new,no one,no,low,february,130 and above,new,new,new,no one,level-3,low
+153,average,new,level-9,no hero,no heroien,level-2,no,level-2,level-2,level-4,level-2,aditya music,less than6,c,level-11,no one,level-9,yes,normal,march,120 and above,level-4,level-2,level-3,level-4,level-1,medium
+154,flop,new,level-10,no hero,level-10,seasonal,no,level-5,level-5,level-8,level-6,aditya music,exactly 6,l,no one,level-13,level-11,yes,top,february,130 and above,level-9,no fights,no one,no one,level-1,medium
+155,flop,new,seasonal,no hero,new,no heroien,no,level-9,level-9,level-15,level-8,aditya music,exactly 6,l,new,new,no one,yes,low,february,130 and above,new,no fights,no one,no one,new,very low
+156,average,level-3,level-14,no hero,level-13,no heroien,no,level-7,level-7,level-7,level-6,puri sangeet,more than 6,d,no one,no one,level-6,no,top,may,130 and above,level-5,no one,no one,level-3,level-1,medium
+157,flop,level-18,seasonal,no hero,seasonal,no heroien,no,new,new,new,new,silly monks,more than 6,l,new,level-14,no one,yes,normal,november,120 and above,level-9,no one,level-4,no one,level-2,low
+158,flop,level-18,seasonal,no hero,new,no heroien,no,level-2,level-2,level-15,level-2,sivam celluloids,less than6,v,new,new,no one,yes,normal,june,130 and above,level-6,no one,no one,level-4,new,low
+159,flop,new,seasonal,no hero,no heroien,level-14,no,level-6,level-6,new,level-3,aditya music,less than6,d,level-14,no one,new,yes,normal,june,120 and above,level-8,no one,level-5,level-5,level-3,low
+160,average,seasonal,new,no hero,new,no heroien,no,level-11,level-11,level-14,level-2,mango music,less than6,d,no one,no one,level-4,no,top,july,below 120,new,no fights,no one,no one,level-2,low
+161,flop,level-1,level-1,no hero,level-2,level-6,no,level-1,level-1,level-2,level-1,aditya music,less than6,d,level-3,no one,no one,no,top,january,150 and above,level-1,no one,level-3,no one,level-1,very high
+162,flop,level-12,level-12,no hero,level-11,no heroien,no,level-1,level-1,level-14,level-7,aditya music,less than6,x,no one,new,no one,no,low,april,130 and above,new,new,no one,no one,new,medium
+163,flop,new,seasonal,no hero,level-8,no heroien,no,level-7,level-7,level-14,level-2,noaudio,nosongs,o,level-16,no one,level-9,yes,top,july,below 120,new,level-5,no one,no one,new,low
+164,flop,new,new,no hero,level-14,no heroien,no,level-8,level-8,new,level-1,aditya music,less than6,l,no one,no one,new,no,low,december,120 and above,new,no fights,no one,no one,level-2,low
+165,flop,level-17,no hero,level-5,seasonal,no heroien,no,level-1,level-1,level-7,level-8,lahari music,less than6,a,no one,level-2,no one,no,top,november,130 and above,level-1,no one,level-2,no one,level-3,high
+166,flop,level-18,level-11,no hero,level-14,no heroien,no,level-6,level-6,level-10,level-4,mango music,less than6,b,new,no one,no one,no,low,august,130 and above,new,new,no one,no one,level-1,medium
+167,average,new,new,no hero,seasonal,no heroien,no,level-9,level-9,level-14,new,aditya music,less than6,ae,no one,new,no one,no,low,august,below 120,new,no one,level-5,no one,level-5,low
+168,flop,seasonal,new,seasonal,new,new,yes,level-11,level-11,level-13,level-6,aditya music,less than6,b,new,new,new,yes,low,june,below 120,level-9,level-5,level-5,level-4,level-2,low
+169,industry hit,level-1,level-2,no hero,no heroien,level-1,no,level-1,level-1,level-1,level-2,zee music south,less than6,c,level-3,no one,no one,no,top,october,150 and above,level-1,level-1,no one,no one,level-1,very high
+170,average,level-7,no hero,level-4,level-6,level-7,no,level-8,level-8,level-3,level-3,aditya music,less than6,s,no one,level-5,no one,no,top,december,130 and above,level-2,level-5,new,foreign,level-1,high
+171,average,new,seasonal,no hero,level-10,no heroien,no,level-11,level-11,new,new,noaudio,nosongs,p,no one,new,level-16,yes,normal,september,150 and above,new,new,no one,no one,new,very low
+172,industry hit,level-12,new,no hero,level-1,no heroien,no,level-1,level-1,level-2,level-1,mango music,less than6,ak,no one,level-2,no one,no,top,january,130 and above,level-2,no one,level-5,no one,level-1,high
+173,average,level-11,seasonal,new,seasonal,level-2,yes,level-6,level-6,level-4,level-7,lahari music,less than6,o,level-8,no one,no one,no,top,february,below 120,level-3,no fights,no one,no one,level-1,low
+174,flop,new,new,no hero,new,level-10,no,new,new,new,level-10,idream music,exactly 6,l,no one,new,level-13,yes,top,september,130 and above,new,no fights,no one,no one,new,low
+175,flop,new,seasonal,seasonal,seasonal,no heroien,yes,new,level-8,new,level-5,mango music,less than6,l,new,no one,no one,no,low,september,130 and above,new,no one,no one,level-4,level-2,low
+176,average,seasonal,no hero,level-9,level-7,no heroien,no,level-9,level-9,level-12,level-2,aditya music,less than6,c,no one,level-12,new,yes,normal,december,130 and above,level-4,no fights,no one,no one,level-3,low
+177,industry hit,level-1,no hero,level-1,no heroien,level-2,no,level-1,level-1,more than one(experience),level-1,lahari music,more than 6,c,level-1,no one,no one,no,top,april,150 and above,level-2,level-1,no one,no one,level-1,very high
+178,average,new,level-10,no hero,new,no heroien,no,level-2,level-2,level-7,level-2,mango music,less than6,l,new,no one,no one,no,normal,september,below 120,level-5,level-1,no one,no one,level-3,low
+179,average,level-13,no hero,level-4,no heroien,level-7,no,level-1,level-1,level-3,level-7,mango music,more than 6,l,level-6,level-10,no one,yes,top,april,130 and above,level-6,level-2,level-3,no one,level-1,medium
+180,average,level-15,level-9,no hero,seasonal,no heroien,no,level-10,level-10,level-9,level-8,aditya music,less than6,l,no one,level-14,no one,no,normal,august,130 and above,level-6,no fights,no one,no one,level-2,low
+181,flop,new,seasonal,no hero,no heroien,new,no,level-6,level-6,level-11,new,idream music,less than6,a,new,new,no one,yes,low,september,130 and above,new,no one,no one,level-5,level-3,low
+182,flop,new,seasonal,no hero,level-14,new,no,new,new,new,new,celeb konnect,less than6,q,no one,new,no one,no,low,october,130 and above,seasonal,no fights,no one,no one,new,very low
+183,hit,level-15,level-11,no hero,no heroien,level-7,no,level-8,level-8,level-11,level-3,aditya music,less than6,l,no one,new,level-3,yes,top,august,130 and above,new,no fights,no one,no one,new,low
+184,hit,level-9,no hero,level-8,level-2,no heroien,no,level-4,level-4,level-6,level-1,aditya music,less than6,y,level-10,no one,no one,no,normal,february,130 and above,new,level-4,level-2,no one,level-1,medium
+185,flop,new,new,no hero,new,no heroien,no,new,new,new,level-8,mango music,less than6,l,no one,no one,new,no,low,october,130 and above,new,new,no one,no one,level-4,very low
+186,hit,level-13,level-8,new,seasonal,new,yes,level-3,level-3,level-8,level-6,aditya music,more than 6,l,level-2,no one,no one,no,top,june,130 and above,level-6,no fights,no one,no one,new,low
+187,average,level-10,level-3,level-4,level-2,level-9,yes,level-2,level-2,level-8,level-3,aditya music,more than 6,d,no one,level-3,no one,no,top,september,150 and above,level-3,level-1,no one,no one,level-2,high
+188,flop,seasonal,new,no hero,new,new,no,level-8,level-8,new,level-3,mango music,less than6,o,no one,level-15,no one,no,normal,november,120 and above,new,level-4,no one,no one,level-4,low
+189,hit,level-13,no hero,level-6,new,level-7,no,level-6,level-6,level-8,level-7,aditya music,less than6,z,level-2,level-8,no one,yes,top,november,130 and above,level-7,no fights,no one,no one,level-2,medium
+190,average,new,level-8,no hero,no heroien,seasonal,no,level-7,level-6,level-15,level-10,aditya music,less than6,x,new,no one,no one,no,normal,may,150 and above,new,new,no one,no one,level-2,low
+191,flop,new,new,no hero,seasonal,no heroien,no,level-10,level-10,seasonal,new,lahari music,less than6,t,new,no one,no one,no,low,november,130 and above,new,new,no one,no one,new,medium
+192,average,new,no hero,level-14,level-10,new,no,level-10,level-10,new,level-5,mango music,exactly 6,q,new,new,no one,yes,low,december,120 and above,level-4,no fights,no one,no one,level-3,low
+193,average,new,level-11,no hero,seasonal,no heroien,no,level-8,level-8,level-14,level-3,madhura audio,less than6,p,new,no one,no one,no,low,december,130 and above,level-7,no fights,no one,no one,new,low
+194,flop,level-6,no hero,level-3,level-1,level-13,no,level-2,level-2,level-6,level-4,aditya music,exactly 6,c,level-7,no one,no one,no,top,january,150 and above,level-9,level-1,level-4,level-2,level-2,high
+195,flop,level-5,no hero,level-5,no heroien,level-6,no,level-1,level-1,level-15,level-1,aditya music,less than6,c,no one,level-7,no one,no,top,february,120 and above,level-4,level-2,no one,no one,level-2,high
+196,flop,new,seasonal,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,l,new,no one,no one,no,low,february,130 and above,level-9,no fights,no one,no one,level-3,low
+197,hit,level-6,level-7,no hero,seasonal,level-3,no,level-1,level-1,level-9,level-3,aditya music,less than6,l,no one,no one,level-1,no,top,october,130 and above,level-3,no one,level-4,no one,level-1,medium
+198,flop,seasonal,seasonal,no hero,level-12,level-10,no,level-8,level-8,seasonal,level-1,mango music,less than6,l,new,no one,no one,no,low,february,120 and above,new,new,no one,no one,new,low
+199,super hit,new,no hero,level-6,seasonal,level-9,no,level-5,level-5,level-10,level-6,aditya music,less than6,b,new,level-9,level-9,yes,top,august,130 and above,level-4,new,new,new,level-1,medium
+200,flop,new,level-13,no hero,no heroien,level-8,no,level-10,level-1,level-14,level-10,mango music,less than6,q,no one,no one,new,no,top,july,120 and above,level-8,no fights,no one,no one,new,low
+201,super hit,level-4,level-6,no hero,no heroien,level-2,no,level-2,level-2,level-5,level-4,aditya music,less than6,q,level-1,no one,no one,no,top,august,130 and above,level-3,level-3,level-2,no one,level-1,medium
+202,flop,level-17,level-12,level-12,seasonal,level-12,yes,level-1,level-1,level-12,level-8,silly monks,more than 6,x,no one,no one,level-14,no,top,february,120 and above,level-5,level-2,no one,no one,new,medium
+203,average,new,no hero,level-11,new,no heroien,no,level-5,level-5,level-14,level-6,aditya music,less than6,b,no one,new,new,yes,low,december,120 and above,new,no one,no one,level-4,level-2,low
+204,flop,new,new,no hero,no heroien,level-14,no,new,new,new,level-8,mango music,less than6,l,no one,no one,new,yes,low,december,120 and above,new,new,no one,no one,level-4,low
+205,hit,new,new,new,new,level-10,yes,level-5,level-9,level-8,new,aditya music,less than6,l,level-15,new,new,yes,normal,december,130 and above,new,level-3,no one,no one,level-1,low
+206,flop,new,new,no hero,new,level-13,no,level-6,level-6,level-15,level-11,mango music,less than6,l,no one,no one,new,no,low,january,130 and above,new,no one,no one,level-5,level-2,low
+207,flop,level-14,no hero,level-2,level-6,no heroien,no,level-1,more than one(experience),level-3,level-1,aditya music,more than 6,c,no one,level-12,no one,no,top,may,150 and above,level-6,level-1,level-1,level-3,level-1,high
+208,flop,seasonal,no hero,level-9,level-4,no heroien,no,level-6,level-6,level-1,level-6,sony,exactly 6,l,new,level-14,no one,yes,normal,june,120 and above,level-5,no one,level-3,no one,new,medium
+209,average,new,level-9,no hero,level-3,no heroien,no,level-5,level-5,level-14,level-3,sony,less than6,l,new,no one,no one,no,normal,september,130 and above,level-7,no fights,no one,no one,level-2,low
+210,hit,new,level-10,no hero,no heroien,level-14,no,level-9,level-9,more than one(experience),level-8,mango music,more than 6,q,no one,new,level-13,yes,normal,march,120 and above,level-9,no fights,no one,no one,level-2,low
+211,flop,new,no hero,level-8,new,seasonal,no,level-4,level-4,level-10,more than one(experience),aditya music,less than6,l,no one,level-10,no one,no,normal,august,130 and above,level-4,no one,new,level-2,level-2,medium
+212,hit,level-13,no hero,level-6,level-5,level-3,no,more than one,more than one,level-6,level-4,mango music,less than6,i,no one,level-15,level-13,yes,normal,august,130 and above,level-5,no one,level-2,no one,level-1,medium
+213,flop,level-14,level-5,no hero,new,no heroien,no,level-10,level-10,level-9,level-3,lahari music,more than 6,c,level-11,no one,no one,no,normal,may,150 and above,level-4,level-1,level-3,level-2,new,high
+214,flop,level-10,level-6,no hero,level-4,no heroien,no,level-4,level-4,level-5,level-5,lahari music,less than6,c,no one,level-3,no one,no,top,october,130 and above,level-4,no one,level-4,no one,new,high
+215,flop,seasonal,level-10,no hero,no heroien,level-4,no,level-8,level-8,level-10,level-11,t series telugu,exactly 6,l,new,new,no one,yes,normal,december,below 120,new,no fights,no one,no one,level-1,medium
+216,average,level-14,level-5,no hero,level-4,no heroien,no,level-4,level-4,level-11,level-1,lahari music,less than6,l,level-11,no one,no one,no,top,december,150 and above,level-7,no one,no one,level-2,level-1,high
+217,flop,level-2,no hero,level-3,new,no heroien,no,level-10,level-10,new,more than one,mango music,less than6,e,no one,no one,level-15,no,normal,june,120 and above,new,seasonal,no one,no one,level-1,low
+218,average,new,no hero,level-7,no heroien,level-4,no,level-2,level-2,level-4,level-3,mango music,less than6,d,level-9,no one,no one,no,top,july,130 and above,level-1,no one,level-2,level-3,level-1,high
+219,flop,new,level-11,no hero,no heroien,level-10,no,level-2,level-2,level-13,level-8,aditya music,exactly 6,x,no one,no one,level-7,no,top,june,120 and above,level-9,no one,level-4,level-3,new,low
+220,average,new,level-14,no hero,level-9,level-9,no,level-9,level-9,level-12,level-2,junglee music,more than 6,l,new,level-16,new,yes,top,august,120 and above,level-6,no fights,no one,no one,level-2,low
+221,super hit,new,no hero,level-8,level-5,no heroien,no,new,level-11,level-12,level-2,mango music,more than 6,d,no one,new,no one,no,normal,july,130 and above,level-8,no one,no one,level-3,level-5,low
+222,industry hit,level-2,level-6,level-2,no heroien,level-2,yes,level-1,level-1,level-1,level-2,lahari music,exactly 6,c,level-2,no one,no one,no,top,march,150 and above,level-2,level-1,level-2,level-4,level-1,very high
+223,average,level-5,no hero,level-5,level-6,no heroien,no,level-2,level-2,level-9,level-1,aditya music,more than 6,d,level-4,no one,no one,no,top,september,130 and above,level-2,no one,level-3,level-2,level-1,medium
+224,hit,level-6,no hero,level-9,no heroien,level-7,no,level-3,level-3,level-5,level-4,aditya music,less than6,l,no one,no one,level-12,no,normal,june,130 and above,level-2,no fights,no one,no one,level-1,medium
+225,average,level-16,level-7,no hero,no heroien,level-1,no,level-7,level-7,level-7,level-1,junglee music,more than 6,a,no one,level-9,no one,no,top,july,150 and above,level-1,no one,level-1,no one,level-1,high
+226,average,level-16,level-11,level-11,seasonal,level-13,no,level-8,level-8,level-14,level-1,aditya music,less than6,l,level-11,no one,level-9,yes,normal,september,120 and above,level-4,no one,no one,level-4,level-2,medium
+227,flop,level-15,level-5,no hero,no heroien,level-3,no,level-2,level-2,level-11,level-1,lahari music,exactly 6,d,level-2,level-5,no one,yes,top,november,130 and above,level-2,level-1,no one,no one,level-1,medium
+228,average,level-12,level-4,no hero,level-4,level-7,no,level-3,level-3,level-2,level-5,aditya music,more than 6,x,level-1,no one,no one,no,top,august,130 and above,level-3,level-4,no one,no one,level-1,high
+229,super hit,level-9,level-4,no hero,no heroien,level-4,no,level-1,level-1,level-6,level-2,aditya music,more than 6,l,no one,no one,level-5,no,top,february,130 and above,level-4,level-2,foreign,level-3,level-1,high
+230,flop,level-16,level-5,no hero,level-3,no heroien,no,level-2,level-2,level-10,level-7,aditya music,exactly 6,l,no one,level-7,no one,no,top,july,130 and above,level-3,no one,no one,level-2,level-2,medium
+231,flop,new,no hero,level-5,level-4,level-11,no,level-1,level-2,level-3,level-1,mango music,less than6,a,level-9,no one,no one,no,top,february,130 and above,level-3,level-1,level-1,level-3,new,high
+232,hit,level-10,seasonal,level-6,level-2,no heroien,no,level-7,level-7,level-8,level-7,sony,less than6,p,new,new,new,yes,normal,september,120 and above,level-6,no one,seasonal,level-5,new,medium
+233,average,new,level-13,no hero,level-7,no heroien,no,level-7,level-7,level-1,level-3,vel records,less than6,c,no one,level-4,no one,no,top,july,130 and above,level-2,level-5,no one,no one,new,low
+234,flop,new,level-10,level-11,no heroien,seasonal,yes,more than one,more than one,new,level-6,mango music,less than6,ac,no one,no one,new,no,low,october,120 and above,level-7,no one,no one,level-5,level-1,medium
+235,flop,new,no hero,level-6,new,no heroien,no,new,new,new,level-9,aditya music,less than6,c,no one,new,level-15,yes,low,march,120 and above,level-8,no fights,no one,no one,new,low
+236,flop,new,seasonal,no hero,seasonal,seasonal,no,new,new,new,level-10,aditya music,less than6,al,new,no one,no one,no,low,november,120 and above,new,no one,no one,level-4,new,very low
+237,flop,new,seasonal,no hero,new,no heroien,no,new,new,new,new,aditya music,less than6,a,new,no one,no one,no,low,november,below 120,new,no one,no one,level-3,new,very low
+238,flop,new,level-12,level-12,level-13,level-10,yes,new,new,level-12,level-8,aditya music,more than 6,q,new,no one,no one,no,low,december,120 and above,new,new,no one,no one,new,low
+239,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,am,new,no one,no one,no,very low,january,below 120,new,new,no one,no one,new,very low
+240,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,mango music,less than6,ae,new,no one,no one,no,very low,february,below 120,new,new,no one,no one,new,very low
+241,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,lahari music,less than6,c,new,no one,no one,no,very low,february,below 120,new,new,no one,no one,new,very low
+242,disaster,new,level-12,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,ae,new,no one,no one,no,low,february,130 and above,new,new,no one,no one,new,low
+243,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,madhura audio,less than6,,new,no one,no one,no,very low,march,below 120,new,new,no one,no one,new,very low
+244,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,madhura audio,less than6,l,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+245,disaster,new,seasonal,no hero,new,no heroien,no,new,new,new,new,madhura audio,more than 6,l,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+246,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,lahari music,less than6,l,new,no one,no one,no,very low,march,120 and above,new,new,no one,no one,new,very low
+247,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,aditya music,exactly 6,c,new,no one,no one,no,very low,april,130 and above,new,new,no one,no one,new,very low
+248,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,aditya music,exactly 6,l,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+249,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,l,new,no one,no one,no,very low,april,120 and above,new,new,no one,no one,new,very low
+250,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,t series telugu,less than6,d,new,no one,no one,no,very low,april,below 120,new,new,no one,no one,new,very low
+251,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,more than 6,l,new,no one,no one,no,very low,may,120 and above,new,new,no one,no one,new,very low
+252,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,mango music,less than6,r,new,no one,no one,no,very low,june,below 120,new,new,no one,no one,new,very low
+253,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,noaudio,nosongs,aj,new,no one,no one,no,very low,july,below 120,new,new,no one,no one,new,very low
+254,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,madhura audio,less than6,c,new,no one,no one,no,very low,july,below 120,new,new,no one,no one,new,very low
+255,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,noaudio,nosongs,q,new,no one,no one,no,very low,august,below 120,new,new,no one,no one,new,very low
+256,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,aditya music,less than6,l,new,no one,no one,no,very low,august,120 and above,new,new,no one,no one,new,very low
+257,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,lahari music,less than6,aj,new,no one,no one,no,very low,august,130 and above,new,new,no one,no one,new,very low
+258,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,aditya music,less than6,l,new,no one,no one,no,very low,august,120 and above,new,new,no one,no one,new,very low
+259,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,lahari music,exactly 6,q,new,no one,no one,no,very low,august,120 and above,new,new,no one,no one,new,very low
+260,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,noaudio,nosongs,l,new,no one,no one,no,very low,october,130 and above,new,new,no one,no one,new,very low
+261,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,lahari music,less than6,l,new,no one,no one,no,very low,october,130 and above,new,new,no one,no one,new,very low
+262,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,lahari music,more than 6,l,new,no one,no one,no,very low,october,130 and above,new,new,no one,no one,new,very low
+263,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,mango music,less than6,o,new,no one,no one,no,very low,september,below 120,new,new,no one,no one,new,very low
+264,disaster,new,new,no hero,no heroien,new,no,new,new,new,new,noaudio,nosongs,al,new,no one,no one,no,very low,november,below 120,new,new,no one,no one,new,very low
+265,disaster,new,new,no hero,new,no heroien,no,new,new,new,new,madhura audio,exactly 6,l,new,no one,no one,no,very low,september,120 and above,new,new,no one,no one,new,very low
+266,disaster,new,seasonal,no hero,new,no heroien,no,new,new,new,new,aditya music,less than6,d,new,no one,no one,no,very low,november,130 and above,new,new,no one,no one,new,very low

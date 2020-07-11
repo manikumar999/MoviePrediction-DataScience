@@ -1,1 +1,1 @@
-# MoviePrediction-DataScience
+# MoviePrediction
